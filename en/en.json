@@ -1,24 +1,70 @@
 {
-    "ever_1": "Gray November",
-    "ever_2": "I've been down since July",
-    "ever_3": "Motion capture",
-    "ever_4": "Put me in a bad light",
-    "ever_5": "I replay my footsteps on each stepping stone",
-    "ever_6": "Trying to find the one where I went wrong",
-    "ever_7": "Writing letters",
-    "ever_8": "Addressed to the fire",
-    "ever_9": "I was catching my breath",
-    "ever_10": "Staring out an open window",
-    "ever_11": "Catching my death",
-    "ever_12": "I couldn't be sure",
-    "ever_13": "I had a feeling so peculiar",
-    "ever_14": "That this pain would be for evermore",
-    "ever_15": "Hey December",
-    "ever_16": "Guess I'm feeling unmoored",
-    "ever_17": "Can't remember",
-    "ever_18": "What I used to fight for",
-    "ever_19": "I rewind the tape but all it does is pause",
-    "ever_20": "On the very moment all was lost",
-    "ever_21": "Sending signals",
-    "ever_22": "To be double crossed"
+    "ever_1": {
+        "translation": "Gray November",
+        "notes": "sample description"
+    },
+    "ever_2": {
+        "translation": "I've been down since July"
+    },
+    "ever_3": {
+        "translation": "Motion capture"
+    },
+    "ever_4": {
+        "translation": "Put me in a bad light"
+    },
+    "ever_5": {
+        "translation": "I replay my footsteps on each stepping stone"
+    },
+    "ever_6": {
+        "translation": "Trying to find the one where I went wrong"
+    },
+    "ever_7": {
+        "translation": "Writing letters"
+    },
+    "ever_8": {
+        "translation": "Addressed to the fire"
+    },
+    "ever_9": {
+        "translation": "I was catching my breath"
+    },
+    "ever_10": {
+        "translation": "Staring out an open window"
+    },
+    "ever_11": {
+        "translation": "Catching my death"
+    },
+    "ever_12": {
+        "translation": "I couldn't be sure"
+    },
+    "ever_13": {
+        "translation": "I had a feeling so peculiar"
+    },
+    "ever_14": {
+        "translation": "That this pain would be for evermore"
+    },
+    "ever_15": {
+        "translation": "Hey December"
+    },
+    "ever_16": {
+        "translation": "Guess I'm feeling unmoored"
+    },
+    "ever_17": {
+        "translation": "Can't remember"
+    },
+    "ever_18": {
+        "translation": "What I used to fight for"
+    },
+    "ever_19": {
+        "translation": "I rewind the tape but all it does is pause"
+    },
+    "ever_20": {
+        "translation": "On the very moment all was lost"
+    },
+    "ever_21": {
+        "translation": "Sending signals"
+    },
+    "ever_22": {
+        "translation": "To be double crossed",
+        "notes": "sample description"
+    }
 }

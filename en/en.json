@@ -1,10 +1,11 @@
 {
     "ever_1": {
         "translation": "Gray November",
-        "notes": ""
+        "notes": "update this"
     },
     "ever_2": {
-        "translation": "I've been down since July"
+        "translation": "I've been down since August",
+        "notes": "erase this later"
     },
     "ever_3": {
         "translation": "Motion capture"
@@ -61,10 +62,11 @@
         "translation": "On the very moment all was lost"
     },
     "ever_21": {
-        "translation": "Sending signals"
+        "translation": "Sending signals",
+        "notes": "should be updated now too"
     },
     "ever_22": {
         "translation": "To be triple crossed",
-        "notes": ""
+        "notes": "should be updated now"
     }
 }

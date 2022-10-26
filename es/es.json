@@ -1,24 +1,71 @@
 {
-    "ever_1": "",
-    "ever_2": "",
-    "ever_3": "",
-    "ever_4": "",
-    "ever_5": "",
-    "ever_6": "",
-    "ever_7": "",
-    "ever_8": "",
-    "ever_9": "",
-    "ever_10": "",
-    "ever_11": "",
-    "ever_12": "",
-    "ever_13": "",
-    "ever_14": "",
-    "ever_15": "",
-    "ever_16": "",
-    "ever_17": "",
-    "ever_18": "",
-    "ever_19": "",
-    "ever_20": "",
-    "ever_21": "",
-    "ever_22": ""
+    "ever_1": {
+        "translation": "Diciembre gris"
+    },
+    "ever_2": {
+        "translation": "He estado abajo desde agosto",
+        "notes": "erase this later"
+    },
+    "ever_3": {
+        "translation": "Captura de movimiento"
+    },
+    "ever_4": {
+        "translation": "Ponme en una mala luz"
+    },
+    "ever_5": {
+        "translation": "Reproduzco mis pasos en cada peldaño"
+    },
+    "ever_6": {
+        "translation": "Tratando de encontrar el que me equivoqué"
+    },
+    "ever_7": {
+        "translation": "Escribiendo cartas"
+    },
+    "ever_8": {
+        "translation": "Dirigido al fuego"
+    },
+    "ever_9": {
+        "translation": "estaba recuperando el aliento"
+    },
+    "ever_10": {
+        "translation": "Mirando por una ventana abierta"
+    },
+    "ever_11": {
+        "translation": "Atrapando mi muerte"
+    },
+    "ever_12": {
+        "translation": "no podía estar seguro"
+    },
+    "ever_13": {
+        "translation": "Tuve un sentimiento tan peculiar"
+    },
+    "ever_14": {
+        "translation": "Que este dolor sería para siempre"
+    },
+    "ever_15": {
+        "translation": "hola diciembre"
+    },
+    "ever_16": {
+        "translation": "Supongo que me siento sin amarras"
+    },
+    "ever_17": {
+        "translation": "no puedo recordar"
+    },
+    "ever_18": {
+        "translation": "Por lo que solía luchar"
+    },
+    "ever_19": {
+        "translation": "Rebobino la cinta pero todo lo que hace es pausar"
+    },
+    "ever_20": {
+        "translation": "En el mismo momento en que todo estaba perdido"
+    },
+    "ever_21": {
+        "translation": "Enviando señales",
+        "notes": "should be updated now too"
+    },
+    "ever_22": {
+        "translation": "Ser triple cruzado",
+        "notes": "should be updated now"
+    }
 }

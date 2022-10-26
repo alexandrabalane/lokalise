@@ -1,24 +1,71 @@
 {
-    "ever_1": "",
-    "ever_2": "",
-    "ever_3": "",
-    "ever_4": "",
-    "ever_5": "",
-    "ever_6": "",
-    "ever_7": "",
-    "ever_8": "",
-    "ever_9": "",
-    "ever_10": "",
-    "ever_11": "",
-    "ever_12": "",
-    "ever_13": "",
-    "ever_14": "",
-    "ever_15": "",
-    "ever_16": "",
-    "ever_17": "",
-    "ever_18": "",
-    "ever_19": "",
-    "ever_20": "",
-    "ever_21": "",
-    "ever_22": ""
+    "ever_1": {
+        "translation": "Dicembre grigio"
+    },
+    "ever_2": {
+        "translation": "Sono giù da agosto",
+        "notes": "erase this later"
+    },
+    "ever_3": {
+        "translation": "Cattura del movimento"
+    },
+    "ever_4": {
+        "translation": "Mettimi in cattiva luce"
+    },
+    "ever_5": {
+        "translation": "Risuono i miei passi su ogni trampolino di lancio"
+    },
+    "ever_6": {
+        "translation": "Sto cercando di trovare quello in cui ho sbagliato"
+    },
+    "ever_7": {
+        "translation": "Scrivendo lettere"
+    },
+    "ever_8": {
+        "translation": "Indirizzato al fuoco"
+    },
+    "ever_9": {
+        "translation": "Stavo riprendendo fiato"
+    },
+    "ever_10": {
+        "translation": "Guardando fuori da una finestra aperta"
+    },
+    "ever_11": {
+        "translation": "Catturare la mia morte"
+    },
+    "ever_12": {
+        "translation": "Non potevo esserne sicuro"
+    },
+    "ever_13": {
+        "translation": "Ho avuto una sensazione così particolare"
+    },
+    "ever_14": {
+        "translation": "Che questo dolore sarebbe per sempre"
+    },
+    "ever_15": {
+        "translation": "Ehi dicembre"
+    },
+    "ever_16": {
+        "translation": "Immagino di sentirmi disarmato"
+    },
+    "ever_17": {
+        "translation": "Non riesco a ricordare"
+    },
+    "ever_18": {
+        "translation": "Quello per cui combattevo"
+    },
+    "ever_19": {
+        "translation": "Riavvolgo il nastro ma non fa altro che mettere in pausa"
+    },
+    "ever_20": {
+        "translation": "In quel preciso istante tutto era perduto"
+    },
+    "ever_21": {
+        "translation": "Invio di segnali",
+        "notes": "should be updated now too"
+    },
+    "ever_22": {
+        "translation": "Essere triplo incrociato",
+        "notes": "should be updated now"
+    }
 }

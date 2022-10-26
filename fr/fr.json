@@ -1,24 +1,71 @@
 {
-    "ever_1": "",
-    "ever_2": "",
-    "ever_3": "",
-    "ever_4": "",
-    "ever_5": "",
-    "ever_6": "",
-    "ever_7": "",
-    "ever_8": "",
-    "ever_9": "",
-    "ever_10": "",
-    "ever_11": "",
-    "ever_12": "",
-    "ever_13": "",
-    "ever_14": "",
-    "ever_15": "",
-    "ever_16": "",
-    "ever_17": "",
-    "ever_18": "",
-    "ever_19": "",
-    "ever_20": "",
-    "ever_21": "",
-    "ever_22": ""
+    "ever_1": {
+        "translation": "Salut décembre"
+    },
+    "ever_2": {
+        "translation": "Je suis en panne depuis août",
+        "notes": "erase this later"
+    },
+    "ever_3": {
+        "translation": "Capture de mouvement"
+    },
+    "ever_4": {
+        "translation": "Mettez-moi sous un mauvais jour"
+    },
+    "ever_5": {
+        "translation": "Je rejoue mes pas sur chaque tremplin"
+    },
+    "ever_6": {
+        "translation": "Essayer de trouver celui où je me suis trompé"
+    },
+    "ever_7": {
+        "translation": "Écrire des lettres"
+    },
+    "ever_8": {
+        "translation": "Adressé au feu"
+    },
+    "ever_9": {
+        "translation": "je reprenais mon souffle"
+    },
+    "ever_10": {
+        "translation": "Regarder par une fenêtre ouverte"
+    },
+    "ever_11": {
+        "translation": "Attraper ma mort"
+    },
+    "ever_12": {
+        "translation": "je ne pouvais pas être sûr"
+    },
+    "ever_13": {
+        "translation": "J'ai eu un sentiment si particulier"
+    },
+    "ever_14": {
+        "translation": "Que cette douleur serait pour toujours"
+    },
+    "ever_15": {
+        "translation": "Salut décembre"
+    },
+    "ever_16": {
+        "translation": "Je suppose que je me sens désarmé"
+    },
+    "ever_17": {
+        "translation": "Je ne me souviens pas"
+    },
+    "ever_18": {
+        "translation": "Ce pour quoi je me battais"
+    },
+    "ever_19": {
+        "translation": "Je rembobine la bande mais tout ce qu'il fait est une pause"
+    },
+    "ever_20": {
+        "translation": "Au moment même où tout était perdu"
+    },
+    "ever_21": {
+        "translation": "Envoi de signaux",
+        "notes": "should be updated now too"
+    },
+    "ever_22": {
+        "translation": "Être triple croisé",
+        "notes": "should be updated now"
+    }
 }

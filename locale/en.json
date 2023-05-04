@@ -1,0 +1,3134 @@
+{
+    "admin": {
+        "roles": {
+            "link2": "this is an additional key",
+            "roleTitles": {
+                "Analyst": "Analyst",
+                "Ops Manager": "Ops Manager",
+                "Supervisor": "Supervisor",
+                "Admin": "Admin"
+            },
+            "permissions": {
+                "noaccess": "No access",
+                "write": "Full access",
+                "read": "View only"
+            },
+            "values": {
+                "in\/defleetingMode": "In\/defleeting mode",
+                "assignDriverToVehicles": "Assign drivers to vehicles",
+                "stopPointIssues": "Stop points & Issues",
+                "launchRides": "Launch rides",
+                "analyticReports": "Analytics reports",
+                "role": "Roles and Permissions",
+                "user": "Users",
+                "shift": "Shifts",
+                "vehicle": "Vehicles",
+                "driver": "Drivers"
+            },
+            "titles": {
+                "notifications": "Notifications",
+                "admin": "Admin",
+                "reports": "Reports",
+                "dashboard": "Dashboard",
+                "management": "Management"
+            },
+            "description": {
+                "notifications": "Access notifications from the past 24 hours",
+                "admin": "View and manage autofleet access and settings",
+                "reports": "Access reporting and analytics dashboards",
+                "dashboard": "Access and control a live operation",
+                "management": "View and manage the operation (vehicles, drivers, shifts…)"
+            },
+            "menu": {
+                "delete": "Delete",
+                "duplicate": "Duplicate",
+                "edit": "Edit"
+            },
+            "popup": {
+                "applyChanges": "Save",
+                "contextLabel": "Context",
+                "contextsHeader": "Contexts",
+                "name": "Role Name",
+                "detailsHeader": "Role Details"
+            },
+            "validate": {
+                "externalId": "A role with this external id already exists",
+                "phoneNumber": "A role with this phone number already exists"
+            },
+            "columnState": "STATE",
+            "columnShifts": "SHIFTS",
+            "columnRatings": "RATINGS",
+            "columnAddress": "ADDRESS",
+            "columnPhoneNumber": "PHONE NUMBER",
+            "columnVendor": "VENDOR",
+            "columnLastName": "LAST NAME",
+            "columnFirstName": "FIRST NAME",
+            "deleteRoleSubmitButton": "Delete",
+            "editRolePopupTitle": "Edit Role",
+            "addRolePopupTitle": "+ New Role",
+            "deleteRolePopupBody": "Are you sure you want to delete {{firstName}} {{lastName}}?",
+            "addButtonPlaceholder": "+ Add Role",
+            "searchPlaceholder": "Search by role name",
+            "link": "Roles"
+        },
+        "pricing": {
+            "error": {
+                "savePolicy": "Something went wrong, please try again later",
+                "savePolicyValidation": "Please add the required fields for creating this policy"
+            },
+            "calculationType": {
+                "distance": "Distance",
+                "duration": "Duration",
+                "fixed": "Fixed"
+            },
+            "list": {
+                "demandSourceId": "Demand source",
+                "updatedAt": "Last updated",
+                "createdAt": "Created at",
+                "cancellationRules": "Cancellation Rules",
+                "baseRules": "Base rules",
+                "name": "Policy name"
+            },
+            "breadcrumb": {
+                "pricingPolicies": "Pricing policies",
+                "settings": "Settings"
+            },
+            "pricingPolicies": "Pricing policies",
+            "createNew": "+ Create new policy",
+            "noPoliciesWereCreated": "No policies were created"
+        },
+        "planningJobsUi": {
+            "excludedRideView": "Excluded Ride Recommendation",
+            "deletePopup": {
+                "submitButton": "Delete",
+                "cancelButton": "Cancel",
+                "body": "Are you sure you want to delete this plan?",
+                "title": "Delete plan"
+            },
+            "noStartTime": "Not defined",
+            "noEndTime": "unlimited",
+            "notDefined": "Not defined",
+            "dispatchPlan": {
+                "dispatchedSuccessfully": "Plan dispatched successfully",
+                "422": "Could not find a vehicle of the required model for this Plan",
+                "400": "The Plan cannot be dispatched. Please check the request",
+                "cannotDispatchPlan": "Cannot dispatch plan",
+                "somethingWentWrong": "Something went wrong"
+            },
+            "dispatch": "Dispatch",
+            "errors": {
+                "300_RIDES": "Showing 300 rides out of {{entityId}} rides",
+                "RIDE_CANCELED": "At least one ride in the plan has been canceled",
+                "RIDE_DISPATCHED": "At least one ride was dispatched separately from the plan",
+                "PLANNING_DISPATCHED": "At least one ride was dispatched in another plan"
+            },
+            "type": {
+                "manual": "Manual",
+                "automatic": "Automatic"
+            },
+            "kpis": {
+                "avgDistance": "Avg route distance",
+                "dispatchedBy": "Dispatched by",
+                "createdBy": "Created by",
+                "durationSymbol": "h",
+                "distanceSymbol": "km",
+                "duration": "Duration",
+                "distance": "Distance",
+                "vehicles": "Vehicles",
+                "rides": "Included Rides",
+                "createdAt": "Created at",
+                "dispatchedAt": "Dispatched at"
+            },
+            "status": {
+                "pending": "Calculating"
+            },
+            "chosenVehicles": "Chosen vehicles",
+            "ridesColumns": {
+                "errorReason": {
+                    "formattedRecommendation": {
+                        "exceedingTimeWindowsExtendBy": "Extend the vehicle shift end time by: {{extendBy}}",
+                        "exceedingTimeWindowsMoveUpBy": "Move up the vehicle shift start time by: {{moveUpBy}}",
+                        "cargoDemandExceed": "Add to vehicle capacity: Packages: {{packages}},\nPassengers: {{passengers}},\nVolume: {{volume}},\nWeight: {{weight}}"
+                    },
+                    "vehicleNotInRidesAbles": "Vehicle not relevant for the current rides",
+                    "vehicleConstraintsMismatch": "Vehicle does not meet the required constraints",
+                    "exceedingTimeWindows": "Vehicle would arrive too late to at least one stop point",
+                    "vehicleNotFinishInTime": "Not enough time to arrive at end location on time given the current shift",
+                    "cargoDemandExceed": "Vehicle capacity exceeded",
+                    "vehicleShiftStartTimeAdvanceSec": "Vehicle shift start time advance sec",
+                    "vehicleShiftEndTimeExtendSec": "Vehicle shift end time extend sec",
+                    "stopPointsBeforeTimeExtendSec": "Extend the before time of stop point by",
+                    "generalExclusion": "No solution found",
+                    "noVehicleWithConstraints": "No vehicle has the required constraints (vendor, driver, vehicle model, etc)",
+                    "noVehicleWithCapacity": "No vehicle has the required capacity",
+                    "noVehicleIntersection": "No vehicle can fulfill the ride given the current constraints",
+                    "noVehicleWithTime": "No vehicle can arrive on time given the stop point windows",
+                    "impossibleTimeWindows": "Cannot meet the time windows",
+                    "recommendationDetails": "More details",
+                    "title": "Reason"
+                },
+                "state": "STATE",
+                "vehicle": "VEHICLE",
+                "dropoffAddress": "DROPOFF ADDRESS",
+                "pickupAddress": "PICKUP ADDRESS",
+                "idName": "ID\/PASSENGER",
+                "type": "TYPE"
+            },
+            "routeColumns": {
+                "passengers": "PASSENGERS\/ITEMS",
+                "acknowledgedAt": {
+                    "pending": "Pending",
+                    "confirmed": "Confirmed",
+                    "title": "IS CONFIRMED"
+                },
+                "startTime": "START TIME",
+                "endTime": "END TIME",
+                "availability": "AVAILABILITY",
+                "namePlate": "PLATE\/NAME",
+                "externalId": "RIDE EXTERNAL ID",
+                "description": "ADDRESS",
+                "etaLabel": "ETA",
+                "type": "TYPE",
+                "spState": "STATE",
+                "order": "ORDER"
+            },
+            "routeForModel": "Route for {{model}} ({{id}})",
+            "routes": "Routes",
+            "routeFor": "Route for {{id}}",
+            "rides": "Rides",
+            "excludedRides": "Excluded Rides",
+            "form": {
+                "quantity": "Quantity",
+                "bodyType": "Body",
+                "seats": "Seats",
+                "capacity": "Capacity",
+                "class": "Class",
+                "driverSelect": {
+                    "title": "Select drivers",
+                    "submit": "Done"
+                },
+                "addVehiclesModels": "Add Vehicles models",
+                "editVehiclesModels": "Edit Vehicles models",
+                "byVehicleMethod": "By vehicles",
+                "byDriverMethod": "By drivers",
+                "byModelMethod": "By models",
+                "addModel": "+ Model",
+                "vendor": "Vendor",
+                "addDrivers": "Add Drivers",
+                "editDrivers": "Edit Drivers",
+                "driverList": "Drivers",
+                "modelsList": "Models",
+                "successToast": "Your plan is being calculated",
+                "vehicleSelect": {
+                    "modelTitle": "Select vehicles models",
+                    "title": "Select vehicles",
+                    "submit": "Done"
+                },
+                "popup": {
+                    "body": "There was an error in creating the plan. Please check the configuration and try again.",
+                    "title": "Something went wrong"
+                },
+                "ridesTable": {
+                    "pickupAddress": "PICKUP ADDRESS",
+                    "dropoffAddress": "DROPOFF ADDRESS",
+                    "scheduledTime": "SCHEDULED TO",
+                    "type": "TYPE",
+                    "idName": "ID\/PASSENGER"
+                },
+                "validation": {
+                    "min": "{{name}} must be at least {{num}} characters",
+                    "validateRequired": "Required"
+                },
+                "rides": "Pending Rides",
+                "submit": "Create Plan",
+                "discard": "Discard",
+                "addVehicles": "Add Vehicles",
+                "editVehicles": "Edit Vehicles",
+                "state": "State",
+                "model": "Model",
+                "licensePlate": "License Plate",
+                "vehiclesList": "Vehicles",
+                "name": "Name"
+            },
+            "planConfiguration": "Plan Configuration",
+            "pleaseChoosePlan": "Please choose plan",
+            "createNew": "+ Add Plan",
+            "title": "Plans",
+            "noName": "No name",
+            "noData": "No data...",
+            "loading": "Loading..."
+        },
+        "system-settings": {
+            "territorySideScreen": {
+                "deletePopup": {
+                    "submitButton": "Delete",
+                    "popupBody": "Are you sure you want to delete this territory?",
+                    "cancelButton": "Cancel",
+                    "title": "Delete territory"
+                },
+                "fields": {
+                    "cordsMissing": "Territory is required:",
+                    "name": "Territory name:"
+                },
+                "addSubmitTitle": "Add Territory",
+                "addPopupTitle": "Add Territory",
+                "editPopupTitle": "Edit Territory",
+                "searchPlaceholder": "Search the map..."
+            },
+            "auditLabel": {
+                "lastEditedBy": "Last edited by",
+                "defaultUser": "Default value"
+            },
+            "successToastText": "Changes Saved!",
+            "searchPlaceholder": "Search in settings",
+            "unsavedChanges": {
+                "plural": "unsaved changes",
+                "singular": "unsaved change"
+            },
+            "categories": {
+                "Ride Reoptimization": {
+                    "description": "The Reoptimization feature ensures that rides are distributed optimally throughout the fleet over time, reducing customer wait times, reducing the fleet’s overall driving distance, and increasing vehicle availability.",
+                    "title": "Ride Reoptimization"
+                },
+                "Matching and Ride Assignment": {
+                    "description": "Configure settings that control how rides are matched and assigned to vehicles",
+                    "title": "Matching and Ride Assignment"
+                },
+                "Territory and localization": {
+                    "description": " ",
+                    "title": "Territory and localization"
+                },
+                "Driver Experience": {
+                    "description": "Set configurations that manage driver app usage",
+                    "title": "Driver Experience"
+                },
+                "Dispatch and Routing": {
+                    "description": "Configure operational settings that impact route optimization, dispatching preferences, and customer experience",
+                    "title": "Dispatch and Routing"
+                }
+            },
+            "entries": {
+                "driverOffer": {
+                    "additionalFields": {
+                        "distanceToPickup": {
+                            "title": "Show distance to pickup"
+                        },
+                        "driverEarnings": {
+                            "title": "Show driver earnings"
+                        },
+                        "contactPerson": {
+                            "title": "Show contact person name"
+                        },
+                        "description": "Define which information is displayed in the Driver App for drivers who manually accept rides",
+                        "title": "Ride Offer Information in Driver App"
+                    }
+                },
+                "rider": {
+                    "info": {
+                        "excludeLastName": {
+                            "description": "Prevent client last names from being visible in the Driver App and ride data.",
+                            "title": "Remove client last name"
+                        }
+                    }
+                },
+                "evCharging": {
+                    "deactivateOnArrive": {
+                        "description": "Set if drivers should be deactivated from vehicles upon arriving to Fuel stop points for electric vehicles. Turn on if drivers are expected to leave vehicles while they are being charged.",
+                        "title": "EV Charging - Deactivate driver upon arrival"
+                    }
+                },
+                "futureRide": {
+                    "dispatchRideImmediately": {
+                        "description": "Dispatch future rides upon creation rather than the default of dispatching future rides at the start of pickup windows. Future rides with pickup windows starting in the next 24 hours will be dispatched.",
+                        "title": "Dispatch Future Rides Immediately"
+                    }
+                },
+                "reoptimization": {
+                    "latestAfterTimeBufferSeconds": {
+                        "description": "Future rides will be considered for reoptimization if the start of the pickup window is below the set limit. This setting is only relevant if the the setting to dispatch future rides immediately is turned on.",
+                        "title": "Future RIde Pickup Window Limit"
+                    },
+                    "minimumImprovement": {
+                        "description": "Only reoptimize the ride if the difference between the current vehicle ETA and the alternative vehicle ETA is above this value. Use this setting to reoptimize rides only if they provide a significant benefit. For example, reoptimize rides only if the ETA improvement is greater than 3 minutes from the current ETA.",
+                        "title": "Required ETA Improvement"
+                    },
+                    "etaBufferSeconds": {
+                        "description": "Set the ETA below which rides will not be reoptimized. For example, if set to 3 min, a vehicle 2.5 minutes away from the pickup will not be reoptimized.",
+                        "title": "Minimum ETA Boundary"
+                    },
+                    "enabled": {
+                        "description": "Reoptimize dispatched rides",
+                        "title": "Reoptimize Rides"
+                    }
+                },
+                "assignmentFlow": {
+                    "windowSize": {
+                        "description": "Set the amount of drivers that can be offered a ride at one time.",
+                        "title": "Wave size"
+                    },
+                    "expiryTimeInSeconds": {
+                        "description": "Set the amount of time ride assignment offers remain valid for driver with a manual assignment strategy. Note that long expiry times may have a negative impact on customer experience.",
+                        "title": "Ride Assignment Offer Expiry Time"
+                    }
+                },
+                "driverActivation": {
+                    "nextState": {
+                        "options": {
+                            "active": {
+                                "title": "Driving"
+                            },
+                            "driver-on-the-way": {
+                                "title": "Driver on the way"
+                            },
+                            "activating": {
+                                "title": "Activating"
+                            }
+                        },
+                        "description": "Set the state to which drivers will transition when they are activated to a vehicle. For operations that don't use the Autofleet Driver App, set the value to \"Driving\". If vehicle locking is triggered from the Autofleet Driver App, set the value to \"Activating\" or \"Driver on the way\", but not \"Driving\".",
+                        "title": "Driver Activation State"
+                    }
+                },
+                "driver-app": {
+                    "sms": {
+                        "body": {
+                            "description": "Set custom text that will be pre-populated in the Driver App SMS field when driver’s initiate a text message to the contact person of the current stop point.",
+                            "title": "SMS Prefix Text"
+                        }
+                    },
+                    "tasks": {
+                        "clustering": {
+                            "description": "Display vehicles that are in a close proximity to one another as clusters in the Autofleet Driver App.",
+                            "title": "Cluster Nearby Vehicles in Driver App"
+                        }
+                    },
+                    "map": {
+                        "territoryDisplay": {
+                            "options": {
+                                "showExcludedAreas": {
+                                    "title": "Excluded Territory"
+                                },
+                                "showTerritory": {
+                                    "title": "Territory"
+                                },
+                                "none": {
+                                    "title": "Don't show"
+                                }
+                            },
+                            "description": "Choose whether to display the operational territory in the driver app or highlight the excluded areas.",
+                            "title": "Display Territory in Driver App"
+                        }
+                    }
+                },
+                "Territory": {
+                    "addNew": "+ Define new territory",
+                    "description": "Define the area of operation with one or more polygons.",
+                    "title": "Territories"
+                },
+                "break": {
+                    "minTimeBetweenBreaks": {
+                        "description": "Set the amount of time after which a driver can start another break",
+                        "title": "Min Time Between Breaks"
+                    },
+                    "maxBreakTime": {
+                        "description": "Set the maximum break duration. Once this time is reached, the break will end automatically.",
+                        "title": "Max Break Time"
+                    }
+                },
+                "matching": {
+                    "driverShiftMarginMinutes": {
+                        "description": "Match rides to drivers only if the rides can be completed within drivers’ current shifts. Set the value to 0 minutes to enforce the actual shift end time, a value greater than zero to add a positive buffer, and a negative value to add a negative buffer, effectively shortening and lengthening shift durations respectively. Disable the setting by leaving the value blank.",
+                        "title": "Enforce Driver Shift Durations in Matching"
+                    },
+                    "pooling": {
+                        "optimizeFor": {
+                            "options": {
+                                "latestDropoffTime": {
+                                    "description": "Prefer the vehicle with the shortest ETA to the pickup. Optimizes for customer experience.",
+                                    "title": "Earliest ETA"
+                                },
+                                "distanceDiff": {
+                                    "description": "Prefer the vehicle to which the shortest distance is added. Optimizes for fleet efficiency.",
+                                    "title": "Minimum driving distance"
+                                }
+                            },
+                            "description": "Determine how the matching algorithm selects the preferred vehicles",
+                            "title": "Route optimization strategy"
+                        },
+                        "maxDrift": {
+                            "passenger": {
+                                "description": "Set the maximum amount of time that a stop point can be delayed relative to the first calculated ETA.",
+                                "title": "Max Drift - Passenger Rides"
+                            },
+                            "delivery": {
+                                "description": "Set the maximum amount of time that a stop point can be delayed relative to the first calculated ETA.",
+                                "title": "Max Drift - Delivery Rides"
+                            }
+                        }
+                    },
+                    "maxStopPointsOnVehicle": {
+                        "description": "Set the maximum number of stop points that can be assigned to a vehicle at once. This setting does not limit adding non-ride stop points and does not apply planning routes. If empty, no limit is applied.",
+                        "title": "Max Stop Points on Vehicle"
+                    }
+                },
+                "route": {
+                    "maxDriftFromDirectRoute": {
+                        "passenger": {
+                            "driftConstant": {
+                                "title": "Drift constant"
+                            },
+                            "driftFactor": {
+                                "title": "Drift factor"
+                            },
+                            "interactiveDescriptionText": [
+                                {
+                                    "description": "The duration of a passenger ride can be extended up to"
+                                },
+                                {
+                                    "value": "{{driftFactor}} times"
+                                },
+                                {
+                                    "description": "the duration of the direct route, but no more than"
+                                },
+                                {
+                                    "value": "{{driftConstant}} minutes"
+                                }
+                            ],
+                            "description": "Set limits for how much time can be added to a passenger ride due to additional rides being pooled. If empty, no limit is set.",
+                            "title": "Pooling Impact on Ride Duration - Passenger"
+                        },
+                        "delivery": {
+                            "driftConstant": {
+                                "title": "Drift constant"
+                            },
+                            "driftFactor": {
+                                "title": "Drift factor"
+                            },
+                            "interactiveDescriptionText": [
+                                {
+                                    "description": "The duration of a delivery ride can be extended up to"
+                                },
+                                {
+                                    "value": "{{driftFactor}} times"
+                                },
+                                {
+                                    "description": "the duration of the direct route, but no more than"
+                                },
+                                {
+                                    "value": "{{driftConstant}} minutes"
+                                }
+                            ],
+                            "description": "Set limits for how much time can be added to a delivery ride due to additional rides being pooled. If empty, no limit is set.",
+                            "title": "Pooling Impact on Ride Duration - Delivery"
+                        }
+                    },
+                    "stopPointAddedTimeSeconds": {
+                        "dropoffSameLocation": {
+                            "title": "Dropoff in same location"
+                        },
+                        "pickupSameLocation": {
+                            "title": "Pickup in same location"
+                        },
+                        "dropoff": {
+                            "title": "Dropoff"
+                        },
+                        "pickup": {
+                            "title": "Pickup"
+                        },
+                        "interactiveDescriptionText": [
+                            {
+                                "value": "{{pickup}} seconds"
+                            },
+                            {
+                                "description": "will be added to pickup stop points, "
+                            },
+                            {
+                                "value": "{{dropoff}} seconds"
+                            },
+                            {
+                                "description": "to dropoff stop points,"
+                            },
+                            {
+                                "value": "{{pickupSameLocation}} seconds"
+                            },
+                            {
+                                "description": "to each additional pickup at the same location, and"
+                            },
+                            {
+                                "value": "{{dropoffSameLocation}} seconds"
+                            },
+                            {
+                                "description": "to each additional dropoff at the same location"
+                            }
+                        ],
+                        "description": "Set how long it takes to complete ride stop points. This time will be added to the stop point ETAs",
+                        "title": "Added ETA Time"
+                    }
+                },
+                "ride": {
+                    "maxWaitTimeSeconds": {
+                        "description": "Set the amount of time after which drivers can fail passenger rides after arriving to the pickup",
+                        "title": "Rider No Show"
+                    }
+                },
+                "DRIVER_CAN_REQUEST_BREAKS": {
+                    "description": "Enable drivers to take breaks in the Autofleet Driver App",
+                    "title": "Driver App Breaks"
+                },
+                "MIN_TIME_BETWEEN_BREAKS_MILLI": {
+                    "description": "Set the amount of time after which a driver can start another break",
+                    "title": "Min Time Between Breaks"
+                },
+                "MAX_BREAKS_PER_SHIFT": {
+                    "description": "Set the maximum amount of breaks a driver can take in a single shift",
+                    "title": "Max Breaks Per Shift"
+                },
+                "MAX_BREAK_TIME_MILLI": {
+                    "description": "Set the maximum break duration. Once this time is reached, the break will end automatically.",
+                    "title": "Max Break Time"
+                }
+            },
+            "units": {
+                "hour": "hour",
+                "hours": "hours",
+                "second": "second",
+                "minute": "minute",
+                "milliseconds": "milliseconds",
+                "multiplier": "X original duration",
+                "seconds": "seconds",
+                "minutes": "minutes",
+                "number": "number"
+            },
+            "validationLabels": {
+                "int": "Must be a number",
+                "nonNegativeInt": "Must be a positive number",
+                "intGreaterThanZero": "Must be a number greater than zero",
+                "floatGreaterThanOne": "Must be a number greater than one",
+                "positiveFloat": "Must be a positive number (may include decimal places)"
+            },
+            "errorPopup": "Error saving settings",
+            "false": "OFF",
+            "true": "ON",
+            "discard": "Discard",
+            "saveChanges": "Save changes",
+            "link": "Settings"
+        },
+        "planningJobs": {
+            "columnCompletionRate": "COMPLETION RATE",
+            "columnIsPartial": "IS PARTIAL",
+            "columnStatus": "STATUS",
+            "columnEndTime": "END TIME",
+            "columnCreatedAt": "START TIME",
+            "columnBusinessModelId": "BUSINESS MODEL ID",
+            "columnId": "ID",
+            "addButtonPlaceholder": "Run Planning 🤓",
+            "searchPlaceholder": "Search by id...",
+            "link": "Planning Jobs"
+        },
+        "settings": {
+            "popup": {
+                "description": "Setting Key",
+                "submit": "Send",
+                "applyChanges": "Save",
+                "contextId": "Context Id",
+                "fleetId": "Fleet Id",
+                "demandSourceId": "Demand Source Id",
+                "businessModelId": "Business Model Id",
+                "value": "Value",
+                "type": "Type",
+                "key": "Key",
+                "id": "ID"
+            },
+            "columnValue": "VALUE",
+            "columnContextId": "CONTEXT ID",
+            "columnDemandSourceId": "DEMAND SOURCE ID",
+            "columnFleetId": "FLEET ID",
+            "columnBusinessModelId": "BUSINESS MODEL ID",
+            "columnId": "ID",
+            "columnKey": "KEY",
+            "pendingUserMsg": "Invite sent",
+            "deleteSettingSubmitButton": "Delete setting",
+            "deleteSettingTitle": "Delete setting",
+            "editSettingPopupTitle": "Edit Setting",
+            "addSettingPopupTitle": "Add Setting",
+            "deleteSettingPopupBody": "Are you sure you want to delete the {{key}} setting?",
+            "addButtonPlaceholder": "+ Add Setting",
+            "searchPlaceholder": "Search by key...",
+            "link": "Settings Admin"
+        },
+        "users": {
+            "popup": {
+                "serviceAccount": "Service account",
+                "supportSessionExpiry": "Hide user",
+                "errorApprovedInviteExists": "User has already been invited to this business unit with this role!",
+                "inviteAlreadyExists": "User has already been invited to this business unit with this role!",
+                "email": "Email",
+                "submit": "Invite",
+                "applyChanges": "Save",
+                "lastName": "Last Name",
+                "firstName": "First Name",
+                "phoneNumber": "Phone Number",
+                "contextLabel": "Business Unit",
+                "roleLabel": "Role",
+                "rolesHeader": "User Roles",
+                "detailsHeader": "Personal Details"
+            },
+            "validate": {
+                "phoneNumber": "Phone number should be unique and valid",
+                "email": "Email should be unique and valid",
+                "lastName": "A user with this external ID already exists",
+                "firstName": "A user with this license plate already exists"
+            },
+            "labelState": "Status",
+            "columnAdded": "ADDED",
+            "columnPhoneNumber": "PHONE NUMBER",
+            "columnEmail": "EMAIL",
+            "columnRole": "ROLE",
+            "columnLastName": "LAST NAME",
+            "columnFirstName": "FIRST NAME",
+            "pendingUserMsg": "Invite sent",
+            "cancelUserInvitationSubmitButton": "Cancel invitation",
+            "deleteUserSubmitButton": "Delete user",
+            "cancelUserInvitationTitle": "Cancel invitation",
+            "deleteUserTitle": "Delete user",
+            "editUserPopupTitle": "Edit User",
+            "addUserPopupTitle": "Invite User",
+            "cancelUserInvitationBody": "Are you sure you want to cancel the invitation for {{email}}?",
+            "deleteUserPopupBody": "Are you sure you want to delete {{name}} from {{context}}?",
+            "addButtonPlaceholder": "+ Invite User",
+            "searchPlaceholder": "Search by First Name, Last Name, Role and more...",
+            "link": "Users"
+        },
+        "permissions": {
+            "validate": {
+                "fuelLevelOutOfRange": "Fuel level should be between 0 and 100",
+                "externalId": "A permission with this external ID already exists",
+                "licensePlate": "A permission with this license plate already exists"
+            },
+            "labelState": "Status",
+            "addStationPlaceholder": "+ Add Station",
+            "columnExternalId": "EXTERNAL ID",
+            "columnIssue": "ISSUE",
+            "columnStatus": "STATUS",
+            "columnParkingStations": "PARKING STATIONS",
+            "columnRangeOnFullTank": "RANGE ON FULL TANK",
+            "columnFuelOrBattery": "FUEL\/BATTERY",
+            "columnColor": "COLOR",
+            "columnDriverName": "CLASS",
+            "columnAcriss": "CLASS",
+            "columnSeats": "SEATS",
+            "columnModel": "MODEL",
+            "licenseNumber": "LICENSE NUMBER",
+            "licenseExpiry": "LICENSE EXPIRY",
+            "columnPlate": "PLATE",
+            "deletePermissionSubmitButton": "Delete",
+            "editPermissionPopupTitle": "Edit Permission",
+            "addPermissionPopupTitle": "Add Permission",
+            "deletePermissionPopupBody": "Are you sure you want to delete {{name}}?",
+            "addButtonPlaceholder": "+ Add Permission",
+            "searchPlaceholder": "Search permission name",
+            "link": "Permissions"
+        },
+        "header": "Admin"
+    },
+    "pricing": {
+        "roundingMethod": {
+            "nearest": "Nearest",
+            "down": "Down",
+            "up": "Up"
+        },
+        "calculationBasis": {
+            "manual": "Manual",
+            "metered": "Metered",
+            "upfront": "Upfront - price calculated by upfront distance and duration estimates",
+            "actual": "Actual - price calculated by actual distance and duration"
+        },
+        "calculationStrategy": {
+            "duration_and_distance": "Duration and distance",
+            "distance": "Distance",
+            "duration": "Duration"
+        },
+        "form": {
+            "calculationBasisTooltip": "Actual - price calculated by actual distance and duration\nUpfront - price calculated by upfront distance and duration estimates\nMetered - price calculated by metered distance and duration\nManual - price calculated by manual distance and duration",
+            "demandSourcePlaceholder": "Select demand source",
+            "demandSourceLabel": "Demand source",
+            "labelsPlaceholder": "Enter labels",
+            "labelsLabel": "Labels",
+            "currencyPlaceholder": "Select currency",
+            "currencyLabel": "Currency",
+            "previousDemandTimePeriodPlaceholder": "Enter previous demand time period",
+            "previousDemandTimePeriodLabel": "Previous demand time period",
+            "roundingFactorPlaceholder": "Enter rounding factor",
+            "roundingFactorLabel": "Rounding factor",
+            "roundingMethodNullPlaceholder": "None",
+            "roundingMethodPlaceholder": "Select rounding method",
+            "roundingMethodLabel": "Rounding method",
+            "calculationBasisPlaceholder": "Select calculation basis",
+            "calculationBasisLabel": "Calculation basis",
+            "calculationStrategyPlaceholder": "Select calculation strategy",
+            "calculationStrategyLabel": "Calculation strategy",
+            "distanceUnitPlaceholder": "Select distance unit",
+            "distanceUnitLabel": "Distance unit"
+        },
+        "distanceUnit": {
+            "mile": "Miles",
+            "km": "Kilometers"
+        }
+    },
+    "search": {
+        "placeholder": "Search..."
+    },
+    "datePicker": {
+        "placeholder": {
+            "time": "--:--",
+            "date": "Jan 01, YYYY"
+        }
+    },
+    "TaskForm": {
+        "back": "BACK",
+        "viewTaskTitle": "View task",
+        "newTaskTitle": "New task"
+    },
+    "cancellationReasons": {
+        "Don't need a ride anymore": "Don't need a ride anymore",
+        "Found another ride": "Found another ride",
+        "Don't need a courier anymore": "Don't need a courier anymore",
+        "Found another courier": "Found another courier",
+        "ETA was too long": "ETA was too long",
+        "It's taking too long": "It's taking too long",
+        "Other reason": "Other reason",
+        "Booking a different time": "Booking a different time",
+        "Ordered by mistake": "Ordered by mistake"
+    },
+    "fileUploader": {
+        "supportText": "Supported: {{fileType}} files",
+        "browseText": "Browse files",
+        "instructionText": "Drag & drop file here or"
+    },
+    "EmailInput": {
+        "label": "Recipients"
+    },
+    "vehicleListWithAddModal": {
+        "noItemsText": "No Vehicles Associated with this driver yet",
+        "addItemText": "Add Owned Vehicle",
+        "title": "Choose Vehicles",
+        "submit": "Submit"
+    },
+    "AFDriverVehicleAssociations": {
+        "noDataText": "No associated vehicles",
+        "addOrEditText": "Edit Associated Vehicles",
+        "addText": "Add Associated Vehicles",
+        "title": "Associated Vehicles"
+    },
+    "AFRidesList": {
+        "columns": {
+            "driverName": "Driver",
+            "status": "Status",
+            "orderTime": "OrderTime",
+            "createdAt": "Created At",
+            "pickupAddress": "Pickup Address",
+            "dropoffAddress": "Dropoff Address",
+            "scheduledTime": "SCHEDULED TO",
+            "type": "TYPE",
+            "idName": "ID\/PASSENGER"
+        }
+    },
+    "buildCronPopup": {
+        "title": "Timing"
+    },
+    "opsReportComponents": {
+        "popups": {
+            "submitError": "Something went wrong with saving the ops report",
+            "genericBody": "Oops, something went wrong. \nPlease try again",
+            "genericTitle": "Error"
+        },
+        "imageUpload": {
+            "maxFileErrorText": "Max amount: {maxFiles}",
+            "description": "Click or drag to upload images"
+        }
+    },
+    "IncidentReportForm": {
+        "submitErrorTitle": "Error",
+        "submitErrorMsg": "There was an error filing the report. Please try again.",
+        "dropDownTitle": "Report type",
+        "back": "BACK",
+        "title": "Report Issue"
+    },
+    "bodyTypes": {
+        "PickupTruck": "Pickup truck",
+        "Motorcycle": "Motorcycle",
+        "Bike": "Bike",
+        "SUV": "SUV",
+        "Shuttle": "Shuttle",
+        "Convertible": "Convertible",
+        "Truck": "Truck",
+        "Van": "Van",
+        "Minivan": "Minivan",
+        "Estate": "Estate",
+        "Coupe": "Coupe",
+        "Sedan": "Sedan",
+        "Hatchback": "Hatchback"
+    },
+    "opsReportTable": {
+        "columns": {
+            "licensePlate": "License plate",
+            "vehicleModel": "Vehicle model",
+            "vehicleId": "Vehicle ID",
+            "reporterType": "Reporter type",
+            "reporterId": "Reporter ID",
+            "reportName": "Report name",
+            "reportType": "Report type",
+            "time": "Time",
+            "severity": "Severity"
+        }
+    },
+    "table": {
+        "columns": "Columns",
+        "reset": "Reset",
+        "rows": "rows",
+        "loading": "Loading...",
+        "page": "Page",
+        "of": "of",
+        "noData": "No rows found",
+        "previous": "Previous",
+        "next": "Next"
+    },
+    "colors": {
+        "Pink": "Pink",
+        "Silver": "Silver",
+        "Grey": "Grey",
+        "Red": "Red",
+        "Yellow": "Yellow",
+        "White": "White",
+        "Black": "Black",
+        "Orange": "Orange",
+        "Green": "Green",
+        "Blue": "Blue"
+    },
+    "sideMenu": {
+        "notifications": "Notifications",
+        "user": "User",
+        "admin": "Admin",
+        "reports": "Reports",
+        "dashboard": "Dashboard",
+        "management": "Management"
+    },
+    "general": {
+        "required": "Required",
+        "view": "View",
+        "submit": "Submit",
+        "daysInitial": {
+            "saturday": "S",
+            "friday": "F",
+            "thursday": "T",
+            "wednesday": "W",
+            "tuesday": "T",
+            "monday": "M",
+            "sunday": "S"
+        },
+        "daysShort": {
+            "6": "Sat",
+            "5": "Fri",
+            "4": "Thu",
+            "3": "Wed",
+            "2": "Tue",
+            "1": "Mon",
+            "0": "Sun"
+        },
+        "no": "No",
+        "yes": "Yes",
+        "NaN": "- no value -",
+        "copiedToClipBoard": "Copied to clipboard",
+        "actions": {
+            "done": "Done",
+            "newFilter": "New filter",
+            "delete": "Delete",
+            "edit": "Edit"
+        },
+        "disabled": "disabled",
+        "deleteView": {
+            "popupBody": "Are you sure you want to delete?",
+            "submitButton": "Delete",
+            "cancelButton": "Cancel",
+            "title": "Delete"
+        },
+        "errorView": {
+            "description": "Please contact autofleet if this issue persists",
+            "title": "Oops, something went wrong"
+        },
+        "endOfEntries": "All entries are shown",
+        "errorFetch": "Something went wrong. Please try again",
+        "days": {
+            "saturday": "Saturday",
+            "friday": "Friday",
+            "thursday": "Thursday",
+            "wednesday": "Wednesday",
+            "tuesday": "Tuesday",
+            "monday": "Monday",
+            "sunday": "Sunday"
+        }
+    },
+    "userNameInlineEditorContainer": {
+        "save": "Save",
+        "edit": "Edit"
+    },
+    "forbidden": {
+        "message": "Oh no!\n Looks like you are not authorized to view this page",
+        "backToDashboard": "Take me back"
+    },
+    "inviteFailed": {
+        "failedMessage": "This invitation is not valid, please contact your administrator.",
+        "redirect": "go to login"
+    },
+    "inviteSuccess": {
+        "successMessage": "Successfully accepted invitation :)",
+        "goIn": "Let's roll!"
+    },
+    "clientError": {
+        "client": {
+            "phoneNumberNotUnique": "A client with this phone number already exists in demand source {{demandSourceName}}"
+        },
+        "aqlSearch": {
+            "genericSyntaxError": "There was an error with the query. Please check the syntax and try again"
+        },
+        "deleteTerritory": {
+            "DELETE_LAST_TERRITORY_FORBIDDEN": "At least one territory is required."
+        },
+        "ride": {
+            "RIDE_REASSIGN_ONLY_ON_DISPATCHED_RIDES": "The ride can no longer be reassigned because the driver arrived to the pickup."
+        },
+        "defaultMessage": "Something went wrong, please try again.\nIf the problem persists, let us know",
+        "gotIt": "Got it!",
+        "model": {
+            "nameBodyTypeNotUnique": "A model with this name and body type already exists"
+        },
+        "vehicle": {
+            "fleetIdNotUnique": "",
+            "phoneNumberNotUnique": "A vehicle with this phone number already exists",
+            "externalIdNotUnique": "A vehicle is already registered with this external id",
+            "licensePlateNotUnique": "A vehicle with this license plate number already exists"
+        },
+        "driver": {
+            "ASSOCIATED_ENTITY_ID_AND_VEHICLE_ID_NOT_UNIQUE": "An association between this driver and vehicle already exists",
+            "ACCOUNT_NOT_CONNECTED": "The account id is invalid \/ not connected",
+            "fleetIdNotUnique": " ",
+            "phoneNumberNotUnique": "A driver is already registered with this phone number",
+            "externalIdNotUnique": "A driver is already registered with this external id"
+        }
+    },
+    "successPopup": {
+        "defaultMessage": "Success!",
+        "gotIt": "Got it!"
+    },
+    "loginError": {
+        "Try to login with blocked user": "Your account has been suspended, please contact your administrator",
+        "Wrong username": "Invalid username or password",
+        "Wrong password": "Invalid username or password",
+        "loginGeneralError": "Invalid username or password"
+    },
+    "notifications": {
+        "acknowledgedByStatus": "Acknowledged by {{acknowledgedBy}} - {{acknowledgedAt}}",
+        "buttonAcknowledge": "Acknowledge",
+        "noNewNotifications": "You don’t have any notifications",
+        "buttonView": "View",
+        "buttonDismiss": "Dismiss",
+        "title": "Notifications"
+    },
+    "vehiclePitStop": {
+        "break-pending": "Break pending",
+        "fuel": "Fuel",
+        "break": "Break time"
+    },
+    "stopPointTypes": {
+        "station": "Station",
+        "servicing": "Servicing",
+        "hub-cleaning": "Hub Cleaning",
+        "shuttling": "Shuttling",
+        "cleaning": "Cleaning",
+        "driver-exchange": "Driver exchange",
+        "placement": "Placement",
+        "parking": "Parking",
+        "fuel": "Fuel",
+        "dropoff": "Drop-Off",
+        "pickup": "Pick-Up",
+        "generic": "Custom Stop Point"
+    },
+    "vehicleIssues": {
+        "other": "other",
+        "needs-fuel": "Needs Fuel",
+        "none": "None",
+        "dirty": "Needs cleaning",
+        "connectivity-issue": "Connectivity Issue",
+        "flat-tire": "Flat tire",
+        "issue-with-car": "Issue with the vehicle",
+        "accident": "Accident",
+        "masked": "Issue"
+    },
+    "driverStatus": {
+        "activating": "Activating",
+        "driver-on-the-way": "Activating confirmed",
+        "stand-by": "Stand-by",
+        "offline": "Offline",
+        "active": "Driving"
+    },
+    "vehicleStatus": {
+        "dispatched": "Dispatched vehicles",
+        "offline": "Offline",
+        "in-job": "Active",
+        "idle": "Active",
+        "in-route": "In-ride",
+        "in-ride": "In-ride",
+        "online": "Online",
+        "activating": "Activating",
+        "active": "Active",
+        "issue": "Issues"
+    },
+    "popup": {
+        "popupClose": "Close",
+        "recurringRidePopup": {
+            "errors": {
+                "createdRideExclusionError": "Cannot exclude. Ride was already created and {{state}}",
+                "firstDateExclusionError": "Cannot exclude date of first ride",
+                "firstRideExclusionError": "Cannot exclude date of first ride",
+                "exclusionError": "Cannot exclude date with dispatched ride",
+                "selectedWeekdays": "Required",
+                "finalDates": "No dates have been set based on your selections",
+                "endDateMax": "Maximum end date {{max}}",
+                "endDate": "Required",
+                "name": "Required"
+            },
+            "repeatUnits": {
+                "week": "week",
+                "weeks": "weeks"
+            },
+            "summary": "{{name}}Every {{weeksInterval}} on {{weekDays}} until {{endDate}}",
+            "labels": {
+                "summary": "Selection summary",
+                "exclusionCollapse": "Collapse",
+                "exclusion": "Dates & exclusion",
+                "repeatDays": "Repeat on",
+                "endDate": "End date",
+                "repeatEvery": "Repeat every",
+                "nameLabel": "Name"
+            },
+            "firstDayTooltip": "First ride begins on this day",
+            "reset": "RESET EXCLUSIONS",
+            "totalOccurrences": "Ride has a total of {{totalAmount}} occurrences",
+            "excludeOccurrences": "Excluded dates ({{amount}})",
+            "excludeButton": "Exclude specific dates",
+            "title": "Set Recurring ride",
+            "backButtonTitle": "Close",
+            "firstRide": "First ride begins",
+            "firstRidePassed": "First ride began on",
+            "confirmButtonTitle": "Confirm",
+            "submitButtonTitle": "Set",
+            "insureChanges": "Start time has been updated, please review the new schedule",
+            "asap": "ASAP",
+            "removeTemplate": "Remove recurring ride"
+        },
+        "retryPayment": {
+            "errorToast": {
+                "USER_HAS_OUTSTANDING_BALANCE": "Please select a payment method that does not have an outstanding balance",
+                "PAYMENT_NOT_REJECTED": "Payment was not rejected",
+                "rejected": "Payment declined",
+                "general": "There was an error processing the request, try again later or contact support"
+            },
+            "successToast": "Charge successful!",
+            "amount": "Amount",
+            "cancel": "Back",
+            "submit": "Charge {{amount}}",
+            "description": "Select the payment method you wish to use for charging the balance:",
+            "title": "Choose Payment Method"
+        },
+        "name": "Name",
+        "addTransfer": {
+            "amount": "Amount",
+            "cancel": "Cancel",
+            "submit": "Submit",
+            "description": "Description",
+            "balance": {
+                "new": "New balance",
+                "current": "Current balance"
+            },
+            "title": "Add transfer",
+            "connectedAccountToPaymentAccount": "Deduct",
+            "paymentAccountToConnectedAccount": "Add"
+        },
+        "invalidPhone": "Invalid phone number",
+        "stripeAccountId": "Stripe Connected Account Id",
+        "demandSource": "Demand Source",
+        "lastName": "Last Name",
+        "email": "Email",
+        "duplicatedEmails": "There are duplicates",
+        "enterValues": "Enter Values",
+        "enterEmailAddress": "Enter Email Addresses",
+        "placeholderVehicleLabels": "Press enter to add a label",
+        "labelVehicleLabels": "Labels",
+        "activeVerificationsNote": "Active verification code: {{code}}, sent at: {{sentAT}}",
+        "validatePositive": "Must be greater then zero",
+        "labelPhoneNumber": "Vehicle phone number",
+        "popupServicing": "Servicing",
+        "none": "None",
+        "popupPreferredVehicleClass": "Preferred Vehicle Class",
+        "failStopPointPopup": {
+            "submitButtonTitle": "Yes, fail stop point"
+        },
+        "removeStopPointPopup": {
+            "submitButtonTitleDelete": "Remove",
+            "submitButtonTitleCancel": "Yes, cancel ride"
+        },
+        "addIssue": {
+            "title": "Add Issue",
+            "submit": "Add Issue",
+            "cancel": "Cancel"
+        },
+        "removeStopPoint": {
+            "userCancelAction": "No, the passenger requested to cancel",
+            "userCancelText": "Is there an issue with this vehicle or driver that they cannot complete this ride?"
+        },
+        "addStopPoint": {
+            "infoLabel": "Before adding a stop point, make sure that the vehicle has enough gas and that the driver’s shift is not about to end",
+            "title": "Add Stop Point",
+            "submit": "Submit",
+            "cancel": "Cancel",
+            "vehicleLocation": "Current vehicle location",
+            "1hour": "1 Hour",
+            "30min": "30 Min",
+            "asap": "ASAP",
+            "anytime": "Anytime",
+            "mustEndBefore": "Must end before"
+        },
+        "popupBack": "Back",
+        "popupAbort": "Abort",
+        "popupCurrentlyDefleeting": "Currently Defleeting",
+        "popupCurrentlyInfleeting": "Currently Infleeting",
+        "popupInfleetDefleetBy": "Desired number of vehicles:",
+        "validateFromList": "Must select from list",
+        "validateExists": "{{what}} already exists!",
+        "validateRange": "Must be between {{min}} and {{max}}",
+        "validateNumber": "Must be a number",
+        "validateTooShort": "Too Short",
+        "invalidEmail": "Invalid Email",
+        "validateRequired": "Required",
+        "back": "Back",
+        "dismiss": "Dismiss",
+        "save": "Save",
+        "cancel": "Cancel",
+        "applyChanges": "Apply Changes",
+        "popupControlMethod": "Control method",
+        "popupSelectIssue": "SelectIssue",
+        "popupDriverExchange": "Driver exchange",
+        "popupDriverDeactivateOptionNoLabel": "Keep driver on the vehicle",
+        "popupDriverDeactivateOptionOnDoneLabel": "Once stop point completed",
+        "popupDriverDeactivateLabel": "Deactivate Driver",
+        "popupNoteToDriver": "Note to driver",
+        "popupTitle": "Title",
+        "popupGeneric": "Custom",
+        "popupCleaning": "Cleaning",
+        "popupParking": "Parking",
+        "popupHighDemandZone": "High demand zone",
+        "popupFuel": "Fuel",
+        "popupSelectType": "Select Type",
+        "popupAddress": "Address",
+        "popupCell": "Mobile phone number *",
+        "popupLastName": "Last name  *",
+        "firstName": "First name *",
+        "AddAShiftNow": "Start a shift now (8 hours)",
+        "AddingAShiftNow": "Adding A Shift...",
+        "nextShiftsTitle": "Next Shifts:",
+        "labelVendor": "Vendor",
+        "labelBusinessModel": "Business Model",
+        "labelExternalId": "External ID *",
+        "labelSeats": "Capacity *",
+        "labelParkingStations": "Parking Stations *",
+        "labelRangeOnFullTank": "Range On Full",
+        "labelFuelLevel": "Fuel Level *",
+        "labelIssue": "Issue",
+        "labelColor": "Color *",
+        "labelClass": "Class",
+        "labelModel": "Model *",
+        "labelLicenseExpiry": "License Expiry",
+        "labelPlateNumber": "VIN",
+        "labelPlate": "License Plate Number *",
+        "labelAutonomous": "Drive mode",
+        "labelFuelCapacity": "Fuel Capacity",
+        "labelPassengerCapacity": "Number Of Seats",
+        "labelPackageCapacity": "Package Capacity",
+        "labelFuelType": "Powertrain",
+        "labelBodyType": "Body Type",
+        "labelModelName": "Model Name",
+        "labelName": "Name"
+    },
+    "management": {
+        "pricing": {
+            "link": "Pricing"
+        },
+        "driverMessages": {
+            "form": {
+                "driverLabelsLabel": "Message drivers with the labels:",
+                "selectDriversText": "Select drivers",
+                "validations": {
+                    "link": "Must be a full URL (ie, include http or https)"
+                },
+                "subtitles": {
+                    "driverSegmentation": "Driver segmentation",
+                    "messageDetails": "Message details"
+                },
+                "placeholders": {
+                    "link": "https:\/\/www.example.com",
+                    "subTitle": " ",
+                    "title": "Add a short title"
+                },
+                "fieldNames": {
+                    "entityId": "Fleet ID",
+                    "linkText": "Display text",
+                    "link": "URL link",
+                    "linkToggle": "Webpage link",
+                    "content": "Body",
+                    "subTitle": "Short description",
+                    "title": "Title"
+                },
+                "fieldDescriptions": {
+                    "entityId": "Messages are sent to drivers of a specific fleet",
+                    "linkToggle": "Display Link to external URL",
+                    "content": "This will appear only in the full page view of the Driver App",
+                    "subTitle": "This will be the message portion for push notifications and the sub-title for in-app messages in the Driver App",
+                    "title": "This will be the title for push notifications and in-app messages in the Driver App"
+                },
+                "selectDriverMethod": "Select specific drivers",
+                "driverStatesLabel": "Driver state is:"
+            },
+            "link": "Driver Messages"
+        },
+        "messages": {
+            "toast": {
+                "send": "Message sent successfully",
+                "delete": "Message deleted successfully",
+                "withdraw": "Message withdrawn successfully"
+            },
+            "popups": {
+                "error": {
+                    "body": "Something went wrong. Please try again later.",
+                    "title": "Something went wrong"
+                },
+                "send": {
+                    "submitButton": "Send message",
+                    "cancelButton": "Back",
+                    "body": "This message will be sent immediately to all the targeted recipients.",
+                    "title": "Send Message"
+                },
+                "delete": {
+                    "submitButton": "Delete message",
+                    "cancelButton": "Back",
+                    "body": "Are you sure you want to delete this message? This action cannot be undone",
+                    "title": "Delete message"
+                },
+                "withdraw": {
+                    "submitButton": "Withdraw message",
+                    "cancelButton": "Back",
+                    "body": "This will withdraw the sent message from all targeted recipients.\nNote that this action will not withdraw push notifications that have already been delivered.",
+                    "title": "Withdraw message"
+                }
+            },
+            "actions": {
+                "edit": "Edit",
+                "delete": "Delete",
+                "withdrawn": "Withdraw",
+                "send": "Send",
+                "title": "Actions"
+            },
+            "form": {
+                "validations": {
+                    "link": "Must be a full URL (ie, include http or https)"
+                },
+                "csvErrors": {
+                    "general": "Looks like your file doesn't match the required structure. Please download the example file as a reference and try again.",
+                    "uuid": "All values in column 'client_id' must be of type UUID. Invalid row(s): {{rows}}",
+                    "columns": "The file must have only one column title 'client_id'",
+                    "andMore": "and more",
+                    "rowsLimit": "Each message can be sent to up to 200,000 clients at a time",
+                    "rows": "csv empty"
+                },
+                "subtitles": {
+                    "clientSegmentation": "Client segmentation",
+                    "messageDetails": "Message details"
+                },
+                "placeholders": {
+                    "link": "https:\/\/www.example.com",
+                    "subTitle": "Come ride with us this holiday season and get 50% discount",
+                    "title": "Take a ride with us!"
+                },
+                "fieldDescriptions": {
+                    "entityId": "Messages are sent to clients that belong to a single Demand Source",
+                    "linkToggle": "Display Link to external URL",
+                    "content": "This will appear only in the full page view of the Rider App",
+                    "subTitle": "This will be the message portion for push notifications and the sub-title for in-app messages in the Rider App",
+                    "title": "This will be the title for push notifications and in-app messages in the Rider App"
+                },
+                "fieldNames": {
+                    "entityId": "Demand source",
+                    "linkText": "Display text",
+                    "link": "URL link",
+                    "linkToggle": "Webpage link",
+                    "content": "Body",
+                    "subTitle": "Short description",
+                    "title": "Title"
+                },
+                "save": "Save as draft",
+                "submit": "Send",
+                "editTitle": "Edit message",
+                "title": "New Message",
+                "exampleDownload": "Download example file",
+                "downloadClientCsv": "{{numberOfClients}} Clients - Download CSV"
+            },
+            "status": {
+                "scheduled": "Scheduled",
+                "withdrawn": "Withdrawn",
+                "draft": "Draft",
+                "sent": "Sent"
+            },
+            "columns": {
+                "driverStates": "Driver States",
+                "driverLabels": "Driver Labels",
+                "demandSource": "Demand source",
+                "messagesRead": "Read by",
+                "messagesSent": "Recipients",
+                "withdrawnAt": "Withdrawn At",
+                "read": "Read",
+                "sentAt": "Sent At",
+                "updatedAt": "Last Updated",
+                "createdAt": "Created At",
+                "subTitle": "Short description",
+                "title": "Title",
+                "status": "Status",
+                "link": "Link",
+                "content": "Body",
+                "state": "State"
+            },
+            "addNewMessageButton": "+ New Message",
+            "noLink": "No link",
+            "link": "Client Messages",
+            "drilldown": {
+                "noValue": "--",
+                "notSent": "Not sent",
+                "noContent": "No body",
+                "noDate": "--",
+                "statsTitle": "Stats",
+                "detailsTitle": "Message details"
+            }
+        },
+        "smartcar-integration": {
+            "link": "Smartcar Integration"
+        },
+        "afAdminMenu": "Autofleet Admin",
+        "driverSkills": {
+            "deletePopup": {
+                "body": "Are you sure you want to delete {{name}}?",
+                "submit": "Delete",
+                "title": "Delete Driver Skill"
+            },
+            "popup": {
+                "submit": "Send",
+                "applyChanges": "Save",
+                "type": "Type",
+                "issue": "issue",
+                "stopPointSubTypeId": "Stop Point Sub Type ID",
+                "stopPointType": "Stop Point Type",
+                "description": "Description",
+                "name": "Name",
+                "id": "ID",
+                "titleEdit": "Edit Driver Skill",
+                "titleAdd": "Add Driver Skill"
+            },
+            "addButtonPlaceholder": "+ Add Driver Skill",
+            "searchPlaceholder": "Search skill",
+            "columnName": "Skill Name",
+            "columnId": "ID",
+            "link": "Driver Skills"
+        },
+        "clients": {
+            "paymentMethods": {
+                "offlineDisabledTooltipBody": "Offline payment are not currently enabled for this demand Source",
+                "offline": "Offline",
+                "columns": {
+                    "isDefault": "Default payment",
+                    "outstandingBalance": "Balance",
+                    "lastFour": "Last 4 digits",
+                    "name": "Nickname",
+                    "brand": "Brand",
+                    "expiry": "Expiry"
+                },
+                "emptyList": "No Payment Methods",
+                "label": "Payment methods",
+                "addLabel": "Add payment method",
+                "cancel": "Cancel",
+                "add": "Add"
+            },
+            "drillDown": {
+                "outstandingBalance": {
+                    "label": "Outstanding balance"
+                },
+                "pushEnabled": {
+                    "disabled": "Not enabled",
+                    "enabled": "Enabled",
+                    "label": "Mobile push notifications status"
+                },
+                "emailVerification": {
+                    "unverified": "Unverified",
+                    "verified": "Verified",
+                    "label": "Email verification"
+                },
+                "rideList": {
+                    "label": "Ride History (Last 10 rides)"
+                },
+                "id": "Client ID"
+            },
+            "deletePaymentErrors": {
+                "USER_HAS_OUTSTANDING_BALANCE": "Payment method has an outstanding payment and cannot be deleted. Please try again after the outstanding payment has been settled.",
+                "PAYMENT_METHOD_HAS_PENDING_PAYMENT": "Payment method is being used in an active ride and cannot be deleted. Please try again when a ride using this payment method is not active."
+            },
+            "deletePaymentMethodPopupBody": "Are you sure you want to delete this payment method?",
+            "deleteClientPopupBody": "Are you sure you want to delete {{firstName}} {{lastName}}?",
+            "editClientPopupTitle": "Edit Client",
+            "addClientPopupTitle": "Add Client",
+            "addButton": "+ Add Client",
+            "isBlocked": "Block user",
+            "columns": {
+                "outstandingBalance": "Outstanding Balance",
+                "demandSourceName": "Demand Source",
+                "isActive": "Is Blocked",
+                "createdAt": "Created At",
+                "avatar": "Avatar",
+                "lastLogin": "Last Login",
+                "email": "E-Mail",
+                "phoneNumber": "Phone Number",
+                "lastName": "Last Name",
+                "firstName": "First Name"
+            },
+            "addButtonPlaceholder": "Add Client",
+            "searchPlaceholder": "Search anything...",
+            "link": "Clients"
+        },
+        "stopPointSubTypes": {
+            "popup": {
+                "submit": "Send",
+                "applyChanges": "Save",
+                "stopPointType": "Stop Point Type",
+                "lastStopPoint": "Last Stop Point?",
+                "deactivateDriver": "Deactivate Driver?",
+                "defaultPriority": "Default Priority",
+                "afterDoneUrl": "After Done URL",
+                "customMetaData": "Custom Meta Data",
+                "name": "Name",
+                "id": "ID"
+            },
+            "columnName": "NAME",
+            "columnId": "ID",
+            "deleteStopPointSubTypeSubmitButton": "Delete Sub Type",
+            "deleteStopPointSubTypeTitle": "Delete Sub Type",
+            "editStopPointSubTypePopupTitle": "Edit Sub Type",
+            "addStopPointSubTypePopupTitle": "Add Sub Type",
+            "deleteStopPointSubTypePopupBody": "Are you sure you want to delete the {{id}} sub type?",
+            "addButtonPlaceholder": "+ Add Sub Type",
+            "searchPlaceholder": "Search by key...",
+            "link": "SP Sub Types"
+        },
+        "automations_admin": {
+            "link": "Automation Admin"
+        },
+        "planningJobs": {
+            "link": "Planning"
+        },
+        "ops-reports": {
+            "deletePopup": {
+                "submitButton": "Delete",
+                "popupBody": "Are you sure you want to delete this ops report template?",
+                "cancelButton": "Cancel",
+                "title": "Delete ops report"
+            },
+            "sideScreen": {
+                "fields": {
+                    "rootTemplateId": "Root Template Id",
+                    "severity": "Severity",
+                    "labels": "Labels",
+                    "type": "Type",
+                    "name": "Name",
+                    "id": "id",
+                    "add": "Add Ops Report"
+                }
+            },
+            "addPopupTitle": "New Ops Report",
+            "editPopupTitle": "Edit Ops Report",
+            "list": {
+                "defaultSeverity": "Default Severity",
+                "labels": "Labels",
+                "type": "Type",
+                "name": "Name"
+            },
+            "addButtonPlaceholder": "+ Add Ops Report",
+            "searchPlaceholder": "Search by address or name...",
+            "link": "Ops Reports"
+        },
+        "vendors": {
+            "businessModels": {
+                "noBusinessModels": "All business models have been selected",
+                "addBusinessModel": "+ Add business model",
+                "chooseBusinessModel": "Select business model",
+                "noDescription": "No description",
+                "title": "Business Models"
+            },
+            "skills": {
+                "noSkills": "All skills have been selected",
+                "addSkill": "+ Add skill",
+                "chooseSkill": "Select skill",
+                "noDescription": "No description",
+                "title": "Skills"
+            },
+            "deletePopup": {
+                "submitButton": "Delete",
+                "popupBody": "Are you sure you want to delete this vendor?",
+                "cancelButton": "Cancel",
+                "title": "Delete vendor"
+            },
+            "sideScreen": {
+                "fields": {
+                    "driverEarningsEnabledOff": "Hide Driver Earnings",
+                    "driverEarningsEnabledOn": "Display Driver Earnings In App",
+                    "driverEarningsEnabled": "Display Driver Earnings In App",
+                    "rideAssignment": "Ride assignment",
+                    "add": "Add Vendor",
+                    "manualDesc": "Drivers have the option to accept or reject ride offers",
+                    "manual": "Manual",
+                    "autoDesc": "Drivers are automatically assigned rides based on their availability",
+                    "auto": "Auto-assign",
+                    "name": "Vendor name"
+                }
+            },
+            "addPopupTitle": "Add Vendor",
+            "editPopupTitle": "Edit Vendor",
+            "addButtonPlaceholder": "+ Add Vendor",
+            "searchPlaceholder": "Search by name, skills, and more...",
+            "error": {
+                "VENDOR_NAME_NOT_UNIQUE": "This vendor name already exists. Please choose a different name",
+                "title": "Cannot delete vendor"
+            },
+            "vendorHasDrivers": "Vendor cannot be deleted while drivers are assigned",
+            "list": {
+                "businessModels": "BUSINESS MODELS",
+                "assignedDrivers": "ASSIGNED DRIVERS",
+                "rideAssignment": {
+                    "auto": "Auto",
+                    "manual": "Manual",
+                    "title": "RIDE ASSIGNMENT"
+                },
+                "skills": "SKILLS",
+                "name": "NAME"
+            },
+            "link": "Vendors"
+        },
+        "parking": {
+            "addParkingButton": "Add Parking",
+            "parkingSpaceIsNotEmpty": "This parking spot is currently assigned to vehicles and therefore cannot be deleted",
+            "error": {
+                "title": "Cannot delete parking spot"
+            },
+            "deletePopup": {
+                "submitButton": "Delete",
+                "popupBody": "Are you sure you want to delete this parking place?",
+                "cancelButton": "Cancel",
+                "title": "Delete parking"
+            },
+            "sideScreen": {
+                "fields": {
+                    "address": "Parking address:",
+                    "name": "Parking name:"
+                }
+            },
+            "addParkingPopupTitle": "New Parking",
+            "editParkingPopupTitle": "Edit Parking",
+            "list": {
+                "name": "Name",
+                "address": "Address"
+            },
+            "addButtonPlaceholder": "+ Add Parking",
+            "searchPlaceholder": "Search by address or name...",
+            "link": "Parking"
+        },
+        "shifts": {
+            "menu": {
+                "delete": "Delete",
+                "edit": "Edit"
+            },
+            "popups": {
+                "deleteShiftSubmitButton": "Delete",
+                "deleteShiftPopupBodyDrivers": "{{num}} driver{{many}} currently assigned to this shift.",
+                "deleteShiftPopupBody": "Are you sure you want to delete '{{name}}'?",
+                "deleteShiftPopupTitle": "Delete shift"
+            },
+            "error": {
+                "unableToSubmitDataErrorMsg": "Operation was rejected. Please wait a bit and try again.",
+                "unableToSubmitUpdate": "Update failed,",
+                "unableToSubmitAdd": "Adding new shift failed,",
+                "length": "Name too long",
+                "unique": "Name not unique",
+                "require": "Name is required"
+            },
+            "shiftForm": {
+                "submitButton": "Save",
+                "cancelButton": "Cancel",
+                "namePlaceholder": "Shift name",
+                "end": "End",
+                "start": "Start",
+                "name": "Name"
+            },
+            "add": "+ Add shift",
+            "link": "Shifts"
+        },
+        "automations": {
+            "noActionSelected": "No action selected",
+            "noTriggerSelected": "No trigger selected",
+            "components": {
+                "input": {
+                    "placeholder": "Type {{ to see available variables"
+                }
+            },
+            "searchPlaceholder": "Search by name...",
+            "sparkLineDescription": "runs in the last 24 hours",
+            "noRuns": "no runs",
+            "when": "When:",
+            "lastRun": "Last run:",
+            "deletePopup": {
+                "submitButton": "Delete",
+                "popupBody": "Are you sure you want to delete this automation?",
+                "cancelButton": "Cancel",
+                "title": "Delete Automation"
+            },
+            "runPopup": {
+                "submitButtonTitle": "I am sure! Do it!",
+                "closeButtonTitle": "I regret, please don't do it!",
+                "title": "Run Automation",
+                "body": "Running this automation will affect {{count}} our of {{total}} entities! are you sure you want to do it?"
+            },
+            "manualTitle": "Manually Triggered",
+            "eventBasedTitle": "Event Based",
+            "timeBasedTitle": "Time Based",
+            "drillDown": {
+                "automationRun": {
+                    "logs": "Logs",
+                    "firedAt": "Ran At",
+                    "status": "Status:",
+                    "scope": "Scope:"
+                },
+                "form": {
+                    "dryRunPopup": {
+                        "noItemsToShow": "NO ITEMS TO SHOW FOR THIS TRIGGER IN THIS FLEET",
+                        "titleList": "CHOOSE FROM LATEST PAYLOADS OF THIS TRIGGER",
+                        "titlePayload": "CHOSEN TRIGGER'S PAYLOAD FOR THIS DRY RUN",
+                        "firedAt": "fired at",
+                        "mismatchWarning": "will not trigger, does not match fleetId\/businessModelId configured for this automation"
+                    },
+                    "automationLogPopup": {
+                        "emptyPayloadPlaceholder": "CLICK A STEP TO SEE PAYLOAD",
+                        "titlePayload": "Step Data:",
+                        "noItemsToShow": "No Steps To Show",
+                        "titleList": "Steps:",
+                        "title": "Automation Log"
+                    },
+                    "fields": {
+                        "templateId": "Ops Report"
+                    },
+                    "latestRunsTitle": "LATEST RUNS",
+                    "lastEdited": "LAST EDITED",
+                    "lastRun": "LAST RUN",
+                    "created": "CREATED",
+                    "simple": "Simple",
+                    "advanced": "Advanced",
+                    "deletePopup": {
+                        "submitButton": "Delete",
+                        "popupBody": "Are you sure you want to delete this trigger?",
+                        "cancelButton": "Cancel",
+                        "title": "Delete Trigger"
+                    },
+                    "subject": {
+                        "form": {
+                            "subjectTypeTitle": "Use the following subject"
+                        }
+                    },
+                    "trigger": {
+                        "timeBased": {
+                            "cronEditor": "Cron Editor",
+                            "selectionForm": "Selection Form"
+                        },
+                        "eventBased": {
+                            "additionalFields": {
+                                "ops-report-created": {
+                                    "translateSelectedLabel": {
+                                        "equal": "Equals",
+                                        "not_equal": "Not equals"
+                                    },
+                                    "triggerFieldLabel": "Target field",
+                                    "opsReportFieldLabel": "For the ops report titled:",
+                                    "noAdditionalFields": "This ops report does not have any fields that can be selected",
+                                    "addConditionButtonForTrigger": "Add condition based on form value",
+                                    "conditionFieldValueLabel": "Value",
+                                    "conditionFieldLabel": "Target field",
+                                    "addConditionButton": "Add condition based on form value",
+                                    "label": "For the Ops Report titled"
+                                },
+                                "done-in-stop-point": {
+                                    "label": "For the Stop Point type"
+                                },
+                                "issue-added": {
+                                    "label": "For issue type"
+                                }
+                            },
+                            "eventTypeTitle": "When the following event occurs"
+                        }
+                    },
+                    "dryRunTooltip": "Get the output of running the automation  without actually performing the target action",
+                    "action": {
+                        "form": {
+                            "additionalFields": {
+                                "add-issue": {
+                                    "label": "Which issue type?"
+                                },
+                                "add-stop-point": {
+                                    "skipArrived": "Skip “I've Arrived” step in the Driver App",
+                                    "driverAppName": "Short name for Driver app (optional)",
+                                    "displayName": "Display name",
+                                    "color": "Stop point color in Driver App",
+                                    "priority": "Stop Point Priority",
+                                    "note": "Note to driver (optional)",
+                                    "type": "Stop point type",
+                                    "label": "Create stop point"
+                                }
+                            },
+                            "send-web-hook": {
+                                "body": "JSON Payload Body",
+                                "url": "Target URL",
+                                "label": "Send webhook"
+                            },
+                            "send-mail": {
+                                "body": "Body",
+                                "subject": "Subject",
+                                "recipients": "Recipients",
+                                "label": "Send email"
+                            },
+                            "remove-issue": {
+                                "label": "Remove issue from vehicle"
+                            },
+                            "add-issue": {
+                                "label": "Add issue to vehicle"
+                            },
+                            "add-stop-point": {
+                                "label": "Create stop point"
+                            },
+                            "actionTypeTitle": "Perform the following action"
+                        }
+                    },
+                    "editTiming": "Edit Timing",
+                    "disabled": "Disabled",
+                    "enabled": "Enabled",
+                    "forceRunAutomationTitle": "Force Run",
+                    "idTitle": "ID:",
+                    "businessModelTitle": "Business Model",
+                    "fleetTitle": "Fleet",
+                    "subjectTriggerDisclaimer": "This automation has both subject and event based trigger, in this case we will try to merge them and we will only succeed if subject fetch single entity and trigger payload is a single entity",
+                    "subjectParameterTitle": "Subject Parameters",
+                    "dryRunTitle": "WHAT IF I RUN IT?",
+                    "runAutomationTitle": "Run Automation",
+                    "subjectTitle": "Subject",
+                    "actionParameterTitle": "Action Parameters",
+                    "automationNamePlaceholder": "Automation Name",
+                    "cronJobInvalidError": "Invalid cron string",
+                    "cronTitle": "Cron",
+                    "limitValue": "Limit Value",
+                    "conditionValue": "Condition Value",
+                    "condition": "Comndition",
+                    "automationName": "Automation Name",
+                    "triggerTitle": "Trigger",
+                    "limitTitle": "Limit",
+                    "conditionTitle": "Condition",
+                    "actionTitle": "Action"
+                },
+                "editAutomation": "Edit Automation",
+                "addAutomation": "Add Automation"
+            },
+            "addButtonPlaceholder": "+ Add Automation",
+            "link": "Automations",
+            "userAutomationTitle": "Custom Automations"
+        },
+        "rides": {
+            "completeMeteredRide": {
+                "inputDescription": "Completing this stop point will stop the ride fare calculation and complete the ride. This action cannot be undone.",
+                "submitButton": "Complete ride",
+                "body": "The estimated ride fare is {{formattedPrice}}.\n\nThis action cannot be undone.",
+                "inputLabelText": "Ride fare of metered ride",
+                "title": "Complete metered ride"
+            },
+            "editRidePopupOptions": {
+                "allUpcoming": "Edit this ride and all upcoming rides",
+                "onlyOne": "Edit this ride only"
+            },
+            "deleteRidePopupOptions": {
+                "allUpcoming": "This and all upcoming rides",
+                "onlyOne": "Only this ride"
+            },
+            "completeStopPoint": {
+                "lastStopPointInActualPriceBody": "Completing this stop point will stop the ride fare calculation and complete the ride. This action cannot be undone.",
+                "submitButton": "Complete stop point",
+                "body": "This action cannot be undone. Complete this stop?",
+                "title": "Complete stop point"
+            },
+            "failFlow": {
+                "body": "Are you sure you want to fail this ride?",
+                "submit": "Fail Ride"
+            },
+            "detachPlanConfirmation": {
+                "submitButton": "Continue",
+                "body": "This ride is part of a planning job. If you continue, the ride will be removed from the planning job.",
+                "title": "Ride Part of Planning Job"
+            },
+            "detachRidePopupBody": "Are you sure you want to remove this ride from the planning job?",
+            "detachRideSubmitButton": "Continue",
+            "viewSuccessToast": "View ride",
+            "dispatchSuccessToast": "Dispatched",
+            "updateSuccessToast": "Ride updated",
+            "createSuccessToast": "Ride created",
+            "unassignSuccessToast": "Ride unassigned successfully",
+            "maxRidesShown": "Maximum of 100 rides shown",
+            "unassignRidePopupBody": "Are you sure you want to unassign this ride?",
+            "unassignRideSubmitButton": "Unassign Ride",
+            "reassignRideTitle": "Reassign Ride",
+            "rejectRideTitle": "Reject Ride",
+            "failRidePopupBody": "Are you sure you want to report this stop point as failed?",
+            "deleteRidePopupBody": "Are you sure you want to cancel this ride?",
+            "deleteRideSubmitButton": "Cancel Ride",
+            "failRideTitle": "Failed Stop Point",
+            "cancelRideAndRecreateTooltipTitle": "Cancel the ride and open the order form with this ride's details. You may now\nchange order details and add vehicle constraints before re-dispatching",
+            "cancelRideAndRecreateTitle": "Cancel and clone order",
+            "cancelRideTitle": "Cancel Ride"
+        },
+        "vehicles": {
+            "columnPassengerCapacity": "PASSENGER CAPACITY",
+            "name": "NAME",
+            "columnDistance": "DISTANCE",
+            "columnStops": "STOPS",
+            "columnVendorName": "VENDOR",
+            "deleteVehicleTooltipBody": "Vehicle must be in an Offline status to be deleted",
+            "models": {
+                "tankTooltip": "The total distance this model can travel on a full tank or charge",
+                "packageCapacityTooltip": "The amount of packages this model can hold simultaneously based on the expected package size",
+                "seatsTooltip": "Available seating for passengers (not including the driver seat)",
+                "modelNamePlaceholder": "Example: Honda Civic EX",
+                "autonomous": "Autonomous",
+                "human": "Traditional (human driver)",
+                "EV": "Electric",
+                "ICE": "Internal combustion engine (ICE)",
+                "body": "Are you sure you want to delete {{name}} {{bodyType}}?",
+                "deleteButton": "Delete",
+                "hasVehicle": "This model is currently assigned to vehicles and therefore cannot be deleted",
+                "addPopupTitle": "Add Vehicle Model",
+                "editPopupTitle": "Edit Vehicle Model",
+                "searchPlaceholder": "Search by Name, Body type, Powertrain",
+                "addButtonPlaceholder": "+ Add Vehicle Model",
+                "no": "No",
+                "yes": "Yes",
+                "columnVehicleCount": "VEHICLES IN FLEET",
+                "columnFuelType": "POWERTRAIN",
+                "columnClass": "CLASS",
+                "columnRange": "RANGE ON FULL",
+                "columnSeats": "PASSENGER SEATS",
+                "columnCapacity": "PACKAGE CAPACITY",
+                "columnAutonomous": "AUTONOMOUS",
+                "columnName": "MODEL NAME",
+                "columnBodyType": "BODY TYPE",
+                "link": "Vehicle Models"
+            },
+            "validate": {
+                "nameTooLong": "Vehicle name must be below 60 characters",
+                "phoneNumber": "A vehicle with this phone number already exists",
+                "fuelLevelOutOfRange": "Fuel level should be between 0 to 100",
+                "externalId": "A vehicle with this external ID already exists",
+                "licensePlate": "A vehicle with this license plate already exists"
+            },
+            "labelState": "Status",
+            "addStationPlaceholder": "+ Add Station",
+            "columnCapacity": "PACKAGE CAPACITY",
+            "columnExternalId": "EXTERNAL ID",
+            "columnIssue": "ISSUE",
+            "columnStatus": "STATUS",
+            "columnParkingStations": "PARKING STATIONS",
+            "columnRangeOnFullTank": "RANGE ON FULL TANK",
+            "columnFuelOrBattery": "FUEL\/BATTERY",
+            "columnColor": "COLOR",
+            "columnDriverName": "DRIVER",
+            "columnClass": "CLASS",
+            "columnSeats": "CAPACITY",
+            "columnBody": "BODY",
+            "columnModel": "MODEL",
+            "licenseNumber": "LICENSE NUMBER",
+            "licenseExpiry": "LICENSE EXPIRY",
+            "columnPlate": "PLATE",
+            "deleteVehicleSubmitButton": "Delete",
+            "editVehiclePopupTitle": "Edit Vehicle",
+            "addVehiclePopupTitle": "Add Vehicle",
+            "deleteVehiclePopupBody": "Are you sure you want to delete {{licensePlate}}?",
+            "addButtonPlaceholder": "+ Add Vehicle",
+            "searchPlaceholder": "Search Plate, Model, Status and more...",
+            "link": "Vehicle"
+        },
+        "drivers": {
+            "columnLicenseExpiry": "LICENSE EXPIRY",
+            "balanceAndTransactions": "Balance and transactions",
+            "transfers": {
+                "columns": {
+                    "transferReason": "Transfer Reason",
+                    "ride": "Ride",
+                    "state": "State",
+                    "amount": "Amount",
+                    "createdAt": "Date",
+                    "type": "Type",
+                    "stripeId": "Stripe transfer id"
+                },
+                "balance": "Current Balance",
+                "title": "Transfers",
+                "noAccountDescription": "Need to connect account to view this page",
+                "noAccountTitle": "Driver does not have a connected account",
+                "types": {
+                    "connectedAccountToPaymentAccount": "Deduction",
+                    "paymentAccountToConnectedAccount": "Addition"
+                },
+                "actions": {
+                    "export": "Export",
+                    "addTransfer": "Create transfer"
+                }
+            },
+            "shifts": {
+                "deletePopup": {
+                    "submitButton": "Yes. delete shift",
+                    "popupBody": "Delete this shift?",
+                    "cancelButton": "Back",
+                    "title": "Delete Shift"
+                },
+                "popup": {
+                    "title": {
+                        "edit": "Edit Shift",
+                        "add": "Add Shift"
+                    },
+                    "now": "Now",
+                    "cancel": "Cancel",
+                    "submit": "Done",
+                    "end": "End",
+                    "start": "Start"
+                },
+                "adhoc-table": {
+                    "newShift": "+ New shift",
+                    "columns": {
+                        "duration": "Duration (hrs)",
+                        "endTime": "End",
+                        "startTime": "Start"
+                    }
+                },
+                "tabs": {
+                    "adhoc": "Individual shifts",
+                    "templates": "Shift templates"
+                }
+            },
+            "selectButtons": {
+                "deselectAll": "Deselect All",
+                "selectAll": "Select All"
+            },
+            "columnPreferredVehicleClass": "PREFERRED VEHICLE CLASS",
+            "deleteDriverTooltipBody": "Driver must be in an Offline or Stand-by status to be deleted.",
+            "validate": {
+                "externalId": "A driver with this external id already exists",
+                "phoneNumber": "A driver with this phone number already exists"
+            },
+            "columnState": "STATE",
+            "columnShifts": "SHIFTS",
+            "columnLabels": "LABELS",
+            "columnRatings": "RATINGS",
+            "columnAddress": "ADDRESS",
+            "columnPhoneNumber": "PHONE NUMBER",
+            "columnVendor": "VENDOR",
+            "columnExternalId": "EXTERNAL ID",
+            "columnLastName": "LAST NAME",
+            "columnFirstName": "FIRST NAME",
+            "deleteDriverSubmitButton": "Delete",
+            "editDriverPopupTitle": "Edit Driver",
+            "addDriverPopupTitle": "Add Driver",
+            "deleteDriverPopupBody": "Are you sure you want to delete {{firstName}} {{lastName}}?",
+            "addButtonPlaceholder": "+ Add Driver",
+            "searchPlaceholder": "Search by Name, Address and More...",
+            "link": "Driver"
+        },
+        "header": "Management"
+    },
+    "report": {
+        "planning": {
+            "link": "Planning"
+        },
+        "opsReport": {
+            "opsLogGallery": {
+                "daysDifferenceFromOpsReport": "{{days}} days before submission",
+                "imageMetaDataCreatedAt": "Image metadata created at {{timestamp}} {{-timezone}}",
+                "downloadAll": "Download all",
+                "close": "Close"
+            },
+            "exportMenu": {
+                "opsReportExpandedExport": "Export expanded reports",
+                "opsReportExport": "Export reports"
+            },
+            "severity": {
+                "critical": "critical",
+                "warning": "warning",
+                "info": "info"
+            },
+            "noData": "n\/a",
+            "drillDownTitle": "Report",
+            "searchPlaceholder": "Search anything...",
+            "link": "Ops log"
+        },
+        "datePicker": {
+            "footer": {
+                "cancel": "Cancel",
+                "ok": "OK"
+            }
+        },
+        "widgetsTooltips": {
+            "kpi": {
+                "moves": "moves",
+                "avg": "Avg",
+                "total": "Total"
+            },
+            "subKpi": {
+                "driverPerMin": "The number of minutes it takes the driver to achieve the revenue per mile"
+            },
+            "rebalanceMap": "Desired moves: pickup in blue, dropoff in green. Actual moves: purple",
+            "shiftTime": "Time between first pickup to last drop-off",
+            "revenueUtilization": "The amount of time the fleet was “in-ride” from the total time the fleet was “active”",
+            "fleetUtilization": "The desired number of vehicles from the total available vehicles in the fleet (excluding offline vehicles)",
+            "timeToPickup": "The average time it takes the vehicle to arrive to the pickup location from the time the order was made",
+            "completionRate": "The number of completed ride orders from the total number of ride orders"
+        },
+        "widgetsNames": {
+            "rideTable": "Rides Report",
+            "tasksDuration": "Duration per Task",
+            "movesTable": "Moves Details",
+            "driverComparison": "Driver Comparison",
+            "rebalanceMap": "Rebalancing Map",
+            "accuracyDistribution": "Accuracy Distribution",
+            "cleaningRate": "Number of cleanings",
+            "shiftTime": "Shift Time",
+            "revenuePerVehicle": "Revenue Per Vehicle",
+            "vehiclesUtilization": "Utilization",
+            "unpaidDistance": "Rebalancing distance",
+            "availableVehicles": "Available Vehicles",
+            "avgSessionDistance": "Session distribution by distance ",
+            "movesRate": "Completed Tasks",
+            "conversionRate": "Conversion Rate",
+            "appBookings": "Bookings",
+            "appSessions": "App Sessions",
+            "totalRevenue": "Total revenue",
+            "totalKms": "Total kilometers",
+            "totalMiles": "Total miles",
+            "revenuePerKm": "Revenue per km",
+            "revenuePerMile": "Revenue per mile",
+            "revenueUtilization": "Revenue utilization",
+            "fleetUtilization": "Desired fleet utilization",
+            "rating": "Rating",
+            "timeToPickup": "Time to pick up",
+            "completionRate": "Completion rate",
+            "demand": "Demand"
+        },
+        "moves": {
+            "link": "Vehicles Moves"
+        },
+        "ride": {
+            "dataTooLargeSubmitButton": "Got it",
+            "dataTooLargePopupBody": "It looks like this timeframe is too large. Please select a shorter timeframe and try again",
+            "updatedAt": "Updated at",
+            "cancellation": "Canceled by: {{- canceledBy}}. Cancellation reason: {{- cancellationReason}}",
+            "menu": {
+                "view": "View ride",
+                "clone": "Clone order"
+            },
+            "idName": "ID\/Passenger",
+            "createdAt": "Created at",
+            "searchPlaceholder": "Search by Driver Name, Vehicle Plate and More...",
+            "matching": {
+                "SCHEDULED_RIDE_CAPACITY_MAX_REACHED": "You have reached the maximum number of rides for this time slot",
+                "NO_RECEIVING_DRIVER": "Ride was not accepted by any driver",
+                "NO_AVAILABLE_VEHICLES_AFTER_FILTERS": "No available vehicles. Please check your constraints and try again",
+                "NO_AVAILABLE_VEHICLES": "The ride cannot be fulfilled by any vehicle",
+                "CANNOT_ASSIGN_STOP_POINTS": "The ride could not be assigned temporarily",
+                "ROUTE_IS_NOT_POSSIBLE": "A valid route could not be created",
+                "NO_ACTIVE_VEHICLE_IN_AREA": "No active vehicles in area",
+                "SOME_STOP_POINTS_ARE_OUT_OF_TERRITORY": "At least one stop point is outside the defined territory"
+            },
+            "rejectionReason": "Rejection Reason: {{rejectionReason}}",
+            "export": {
+                "vehicle": "Export vehicle usage",
+                "raw": "Export raw data",
+                "ride": "Export rides"
+            },
+            "rating": "Rating",
+            "audit": "Last updated by",
+            "pooling": "Pooling",
+            "currency": "Currency",
+            "price": "Price",
+            "vehiclePlate": "Vehicle plate",
+            "driverName": "Driver name",
+            "contactPerson": "Contact Person",
+            "demandSource": "DemandSource",
+            "scheduledAt": "Scheduled At",
+            "status": "Status",
+            "orderTime": "Order time",
+            "rideType": "Ride Type",
+            "link": "Rides"
+        },
+        "operations": {
+            "export": {
+                "action": {
+                    "driverCommit": "Driver selected a task",
+                    "driverInVehicle": "Arrived to vehicle",
+                    "doneInStopPoint": "Completed Task"
+                }
+            },
+            "filters": {
+                "perAgent": "Breakdown per agent",
+                "selectVendors": "Vendors",
+                "selectTypes": "Tasks"
+            },
+            "link": "Operations"
+        },
+        "business": {
+            "link": "Business"
+        },
+        "overview": {
+            "link": "Overview"
+        },
+        "qualityOfService": {
+            "link": "Quality of service"
+        },
+        "utilization": {
+            "avgKpis": {
+                "totalRevenues": "Total revenues",
+                "revenuePerVehicle": "Average revenue per vehicle",
+                "paidMiles": "Paid miles (%)",
+                "eta": "Average ETA",
+                "completionRate": "Completion rate",
+                "revenueUtilization": "Revenue utilization",
+                "totalNumberOfRides": "Total number of rides",
+                "numberOfVehiclesOnTheRoad": "Average number of vehicles on the road",
+                "totalMilesPerVehicle": "Average total miles per vehicle",
+                "rideRevenue": "Average ride revenue",
+                "rideTime": "Average ride time",
+                "rideDistance": "Average ride distance"
+            },
+            "overTimeKpis": {
+                "totalNumberOfRideCompleted": "Total number of completed rides",
+                "totalNumberOfRideRequests": "Total number of ride requests",
+                "avgNumberOfActiveVehicles": "Average number of active vehicles",
+                "eta": "ETA",
+                "completionRate": "Completion rate",
+                "vehicleUtilization": "Vehicle utilization"
+            },
+            "link": "KPIs"
+        },
+        "timeRanges": {
+            "custom": "Custom",
+            "lastYear": "Past year",
+            "lastQuarter": "Past quarter",
+            "lastMonth": "Past month",
+            "lastWeek": "Past 7 days",
+            "lastDay": "Past 24 hours"
+        },
+        "header": "Reports"
+    },
+    "dashboard": {
+        "task": {
+            "assignBy": "Assign by",
+            "actionStatus": {
+                "complete": "done",
+                "pending": "incomplete"
+            },
+            "submitTaskTitle": "Save task",
+            "titlePlaceholder": "Enter title...",
+            "submitTitle": "Submit",
+            "backAction": "back",
+            "submitOpsReportDone": "Saved",
+            "errorSubmitOpsReport": "Error, please try again.",
+            "driverPlaceholder": "Choose driver...",
+            "vendorPlaceholder": "Choose vendor...",
+            "typePlaceholder": "Select an option...",
+            "vehiclePlaceholder": "Choose vehicle...",
+            "descriptionPlaceholder": "Enter description...",
+            "actions": "Actions"
+        },
+        "taskList": {
+            "assignee": "Assignee",
+            "createdAt": "Created At",
+            "updatedAt": "Last Updated",
+            "vendor": "Vendor",
+            "driver": "Driver",
+            "vehicle": "Vehicle",
+            "endTime": "End Time",
+            "startTime": "Start Time",
+            "dueTime": "Due Time",
+            "status": "Status",
+            "description": "Description",
+            "title": "Title",
+            "type": "Type"
+        },
+        "statusBar": {
+            "tooltip": {
+                "hide": "Hide from map",
+                "show": "Show on map"
+            }
+        },
+        "businessModelSelect": {
+            "button": "Business Models"
+        },
+        "mapTooltip": {
+            "route": "Route",
+            "stops": "Stops",
+            "stop": "Stop"
+        },
+        "aql": {
+            "editText": "Edit filter",
+            "deleteText": "Are you sure? The filter will be deleted for all users.",
+            "delete": "Delete",
+            "deleteTitle": "Delete filter",
+            "runQueryButton": "Run",
+            "noVehiclesFound": "No vehicles found",
+            "queryInputLabel": "Query",
+            "filterInputLabel": "Filter name",
+            "saveText": "Save filter"
+        },
+        "mapSearch": {
+            "popup": {
+                "closeButton": "Close",
+                "tableHeaders": {
+                    "Detail": "Detail",
+                    "type": "Type",
+                    "fieldName": "Field name"
+                },
+                "searchPlaceholder": "Search field names and more...",
+                "backButton": "Back to query",
+                "title": "Vehicle schema"
+            },
+            "schemaButton": "Schema"
+        },
+        "clusterOnMap": {
+            "link": "Click to filter",
+            "selectedCounter": "{{count}} vehicles in selected cluster",
+            "counter": "{{count}} vehicles in this cluster"
+        },
+        "driverCard": {
+            "noVendor": "No vendor"
+        },
+        "mapSearchRidesPlaceholder": "Search rides...",
+        "vehicleList": {
+            "columnImage": "Image",
+            "columnNextSp": "Next stop",
+            "columnLabels": "Labels",
+            "columnPitStop": "Pit stop",
+            "columnVendor": "Vendor",
+            "columnFuelLevel": "Fuel",
+            "columnLicenseNumber": "License number",
+            "columnRoute": "No. Stops",
+            "columnExternalId": "External ID",
+            "name": "Name",
+            "showingSomeVehicles": "Showing {{number}} vehicles out of {{total}}",
+            "showingAllVehicles": "Showing all vehicles",
+            "columnStatus": "Status",
+            "columnDriver": "Driver",
+            "columnModel": "Model",
+            "columnClass": "Class",
+            "columnPlate": "Plate"
+        },
+        "drawer": {
+            "createRideButton": "Create Ride",
+            "tabs": {
+                "tasks": "TASKS",
+                "rides": "RIDES",
+                "vehicles": "VEHICLES"
+            }
+        },
+        "cars": "Vehicles",
+        "vehicleDrillDown": {
+            "viewRideLabel": "View ride",
+            "appVersion": "APP VERSION",
+            "underThresholdConfirm": "Reassign anyway",
+            "cantReassignMessage": "Sorry, the ride cannot be reassigned because the pickup window has closed. \nTo re-dispatch, cancel and clone the ride. Be sure to update the pickup window before dispatching.",
+            "underThresholdText": "This ride will be rejected if no driver can complete the pickup in the remaining time.",
+            "reassignRideTimeLeft": "The pickup window will close in {{timeLeft}}",
+            "menu": {
+                "unlockRoute": "Unlock route",
+                "reportIssue": "Report Issue"
+            },
+            "reassignRideConfirmMessage": "The vehicle will be excluded from next matching cycles.\n\nIf this is the optimal vehicle for the ride, reassigning may lead to a longer ETA.\n\nReassign the ride?",
+            "confirmReassignRide": "Yes, reassign",
+            "rejectRideConfirmMessage": "Are you sure you want to \n Reject ride?",
+            "confirmRejectRide": "Yes, reject",
+            "driverRejection": "Reassign",
+            "driverVendorName": "VENDOR",
+            "tabs": {
+                "tasks": {
+                    "title": "TASKS"
+                },
+                "info": {
+                    "table": {
+                        "name": "Name",
+                        "licenseNumber": "VIN",
+                        "none": "None",
+                        "parkingSpaces": "Parking spaces",
+                        "labels": "Labels",
+                        "phoneNumber": "Vehicle phone",
+                        "externalId": "External ID",
+                        "passengerCapacity": "Passenger capacity",
+                        "packageCapacity": "Package capacity",
+                        "fuelType": "Powertrain",
+                        "class": "Class",
+                        "body": "Body",
+                        "model": "Model",
+                        "fuelRange": "Fuel\/Battery"
+                    },
+                    "title": "INFO"
+                },
+                "stopPoints": {
+                    "unlockRoute": {
+                        "moved": "Moved",
+                        "confirmation": {
+                            "body": "Please make sure to review your changes before saving them and locking the route.",
+                            "cancel": "Go back",
+                            "submit": "Save and lock",
+                            "title": "Saving and locking the route"
+                        },
+                        "errors": {
+                            "INVALID_STOP_POINT_ORDER": "The changes requested cannot be made as one or more package dropoffs would be moved before their respective pickup.",
+                            "NEW_ROUTE_IS_INVALID": "There has been an update since you began making the changes. Please refresh, review and make your changes on the updated route.",
+                            "title": "Invalid change"
+                        },
+                        "unlockEnabled": {
+                            "body": "Route changes may negatively impact ETAs and override existing constraints",
+                            "title": "Route editing enabled"
+                        },
+                        "moveStopPoint": "Move stop point here",
+                        "select": "Select to move",
+                        "lock": "Deselect",
+                        "cancel": "Cancel",
+                        "save": "Save"
+                    },
+                    "title": "STOP POINTS"
+                },
+                "driver": {
+                    "assign": "Assign",
+                    "exitVehicleTooltip": "Driver cannot be deactivated while rides are assigned",
+                    "exitVehicle": "Exit Vehicle",
+                    "title": "DRIVER",
+                    "ok": "OK",
+                    "cancel": "Cancel",
+                    "assignOfflineDriverBody": "Assigning this driver will activate an 8-hour shift starting now.",
+                    "assignOfflineDriverTitle": "Driver is currently offline.",
+                    "cancelAssignment": "Cancel",
+                    "backToAssign": "BACK",
+                    "vehicleAssignButton": "Assign driver",
+                    "vehicleAssignDisabledText": "To manually assign a driver, please switch to manual mode and \nmake sure the vehicle is in 'online' status.",
+                    "vehicleAssignText": "To activate the vehicle please assign a driver."
+                }
+            },
+            "etaDetails": {
+                "asap": "ASAP",
+                "before": "Before",
+                "after": "After",
+                "eta": "ETA",
+                "durationTitle": "Duration",
+                "duration": "min.",
+                "distance": "meters"
+            },
+            "stopPointStateLabels": {
+                "rejected": "Rejected",
+                "failed": "Failed",
+                "canceled": "Canceled",
+                "cancelled": "Canceled",
+                "completed": "Completed",
+                "arrived": "Arrived",
+                "in-route": "In route"
+            },
+            "stopPoint": {
+                "stopPointValidations": "Driver validations: ",
+                "photo": "Photo"
+            },
+            "noSensorData": "No data received in last update",
+            "pickUpTime": "Pick-up Time",
+            "dropOffTime": "Drop-off Time",
+            "demandSource": "DEMAND SOURCE",
+            "addIssue": "+ Add issue",
+            "parkingStations": "PARKING STATIONS",
+            "milesLeft": "DISTANCE LEFT",
+            "fuelBatteryLevel": "FUEL \/ BATTERY LEVEL",
+            "class": "Class",
+            "acriss": "ACRISS",
+            "areYouSureRemoveRide": "This will cancel the ride completely, requiring the passenger to create another order",
+            "areYouSureRemoveStopPoint": "Are you sure you want to \n Remove stop point?",
+            "driverAddress": "ADDRESS",
+            "driverCurrentShift": "CURRENT SHIFT",
+            "driverPhoneNumber": "PHONE NUMBER",
+            "driverState": "STATE",
+            "addStopPoint": "+ Add Stop Point",
+            "stopPointCreatedAt": "Created at: ",
+            "completeStopPointLabel": "Complete",
+            "failStopPointLabel": "Failure",
+            "cancelRideLabel": "Cancel",
+            "removeStopPoint": "Remove",
+            "passengers": "Passengers",
+            "contactPerson": "Contact Person",
+            "resetAdvanced": "RESET",
+            "backToList": "LIST",
+            "tabNames": {
+                "tasks": "TASKS",
+                "vendorName": "VENDOR",
+                "info": "INFO",
+                "driver": "DRIVER",
+                "stopPoints": "STOP POINTS"
+            }
+        },
+        "rides": "Rides",
+        "vehicles": "Vehicles",
+        "advancedSearch": {
+            "noFilters": "No filters have been defined",
+            "preDefinedFilters": "Filters",
+            "apply": "Apply",
+            "units": {
+                "bookings": "bookings",
+                "months": "months",
+                "weeks": "weeks",
+                "days": "days"
+            },
+            "tasks": {
+                "booked": "Booked",
+                "rebalanced": "Rebalanced",
+                "cleaned": "Cleaned"
+            },
+            "button": "Advanced Search",
+            "choseUnitPlaceHolder": "Chose unit",
+            "selectUnitPlaceholder": "Select unit",
+            "selectEventPlaceholder": "Select event",
+            "inThePrevious": "in the previous",
+            "hasNotBeen": "has not been",
+            "hasBeen": "has been",
+            "vehicle": "Vehicle"
+        },
+        "mapSearchFilterSearchResult": "Search \"{{searchString}}\"",
+        "mapSearchPlaceholder": "Search Plate, Model, Status and more...",
+        "mapOverlayOptions": {
+            "satellite": "Satellite",
+            "layers": "Layers",
+            "hubs": "Hubs",
+            "territories": "Territories",
+            "traffic": "Traffic",
+            "futureDemand": "Future Demand",
+            "currentDemand": "Current Demand",
+            "fillingStation": "Filling Stations",
+            "parkingSpace": "Parking Spaces",
+            "wayPoints": "Waypoints",
+            "demand": "Demand",
+            "off": "Off"
+        }
+    },
+    "kpis": {
+        "noData30MinTooltip": "No data in past 30 minutes",
+        "ridesPerVehicle": {
+            "sub": "LAST HOUR",
+            "main": "Rides per Vehicle"
+        },
+        "fleetPotential": {
+            "sub": "CURRENT",
+            "main": "Utilized fleet"
+        },
+        "deliveryTime": {
+            "sub": "AVG LAST 30 MIN",
+            "main": "Delivery time"
+        },
+        "potentialPopup": {
+            "manual": "Manual",
+            "auto": "Auto",
+            "close": "Close",
+            "applyChanges": "Apply Changes"
+        },
+        "completionRate": "Completion rate",
+        "potential": "Potential",
+        "utilization": "Utilization",
+        "noDataTooltip": "No data in past hour",
+        "noData": "No Data"
+    },
+    "userSubMenu": {
+        "selectCountry": "Language",
+        "notifications": "Email notifications",
+        "privacyPolicy": "privacy policy",
+        "logout": "Log out"
+    },
+    "userFillDetailsForm": {
+        "submitTitle": "Submit",
+        "lastName": "Last Name",
+        "firstName": "First Name"
+    },
+    "emailValidationFetcher": {
+        "FailedToSendSMS": "Please make sure you typed the email correctly. If the problem persists, please contact support@autofleet.io",
+        "FailedToSaveUser": "Something went wrong, please try again",
+        "EmailNotExists": "A user with this Email is not registered",
+        "validationSubmitTitle": "Submit",
+        "submitTitle": "Send SMS code",
+        "validationLabel": "Enter code from SMS",
+        "email": "Email"
+    },
+    "phoneValidation": {
+        "phoneNumberRequired": "Phone Number *",
+        "UserNotFound": "User not found. Please contact Support.",
+        "FailedToSendSMS": "Something went wrong, please try again",
+        "FailedToSaveUser": "Something went wrong, please try again",
+        "FailedToValidateSMS": "Please make sure you've entered the code correctly",
+        "PhoneNotExists": "Phone number does not exist",
+        "validationSubmitTitle": "Submit",
+        "submitTitle": "Send SMS code",
+        "pinCodeSentTo": "Your pin code was sent to {{phoneNumber}}",
+        "validationLabel": "Enter code from SMS",
+        "phoneNumber": "Phone Number",
+        "reset": "Start over"
+    },
+    "setPassword": {
+        "forgotPassword": "Forgot password",
+        "authLoginError": "something went wrong, please try again",
+        "FailedToLoginFirebase": "Something went wrong, please try again",
+        "FailedToSaveUser": "Something went wrong, please try again",
+        "InvalidPassword": "Something went wrong, please try again",
+        "rules": "Password must contain \n at least 8 characters, \n 1 uppercase letter, \n 1 lowercase letter, \n 1 number and 1 special character",
+        "lessThanRequiredChars": "Password must contain at least 8 characters",
+        "noSpacesAllowed": "spaces are not permitted",
+        "noUpperCase": "1 uppercase letter required",
+        "noLowerCase": "1 lowercase letter required",
+        "invalidPasswordClient": "Invalid password",
+        "submitTitle": "Submit",
+        "password": "Set Password"
+    },
+    "rideList": {
+        "firstMatchAttempt": "First match attempt at {{time}}",
+        "cancellationReasonsPopup": {
+            "submit": "Send",
+            "body": "Please select the reason for cancellation",
+            "title": "The ride has been cancelled"
+        },
+        "asap": "ASAP",
+        "assignmentLog": {
+            "noteToDriver": "",
+            "contactPersonNumber": "",
+            "contactPerson": "",
+            "address": "",
+            "arriveBefore": "",
+            "arriveAfter": "",
+            "description": "",
+            "packageId": "",
+            "noAssignmentLog": "This ride has not gone through any matching cycles",
+            "matchingTitle": "Matching #{{matchingNumber}}",
+            "closeButton": "Close",
+            "score": "Score (0 - 100)",
+            "offerSentAt": "Offer Sent At",
+            "state": "State",
+            "driverName": "Driver Name",
+            "type": "Type",
+            "title": "Assignment Log",
+            "states": {
+                "accepted_failed": "Accepted failed",
+                "failed_to_extend": "Failed to extend",
+                "offer_pulled": "Offer pulled",
+                "offer_sent": "Offer sent",
+                "not_extended": "Not extended",
+                "expired": "Expired",
+                "rejected": "Rejected",
+                "accepted": "Accepted"
+            },
+            "summary": {
+                "lastEditedTitle": "Last edited:",
+                "scheduledToTitle": "Scheduled to:",
+                "demandSourceTitle": "Demand Source:",
+                "statusTitle": "Status:"
+            }
+        },
+        "dispatchType": {
+            "automatic": "Automatic",
+            "manual": "Manual"
+        },
+        "errorFetchRides": "Something went wrong. Please try again",
+        "noMoreRidesToShow": "All rides shown",
+        "newRide": {
+            "recentLocations": {
+                "servicingLocations": "Servicing Locations",
+                "cleaningLocations": "Cleaning Locations",
+                "parkingLocations": "Parking Locations",
+                "searchResults": "Search Results",
+                "recentAddresses": "Recent Addresses",
+                "noRecentAddresses": "No Recent Addresses"
+            },
+            "fareOptions": {
+                "fixed": "Fixed ride fare",
+                "custom": "Custom additional fare",
+                "tip": "Tip",
+                "price": "Amount",
+                "driverEarnings": "Driver earning",
+                "enterFareDescription": "Fare description",
+                "addAdditionalFares": "+ Add fare option",
+                "label": "Fare options"
+            },
+            "addRecurring": "+ Recurring ride",
+            "recurringRide": "Recurring ride",
+            "editRecurringPopup": {
+                "submitButton": "Save",
+                "title": "Edit recurring ride"
+            },
+            "highEtaPopup": {
+                "submitButton": "Continue",
+                "body": "Please note that the service you selected has no vehicles available at the moment.\n\nYou can still create a ride but finding a driver might take longer than usual.",
+                "title": "No vehicles available"
+            },
+            "additionalFares": {
+                "driverEarnings": "Driver earning",
+                "custom": "Custom",
+                "tip": "Tip",
+                "price": "Amount",
+                "enterFareDescription": "Fare description",
+                "addAdditionalFares": "+ Add additional fare",
+                "label": "Additional fares"
+            },
+            "services": {
+                "outOfTerritory": "Out of territory",
+                "highEta": "No vehicle available. Ride may reject and matching time may be long.",
+                "unavailable": "Not available",
+                "estimatedFare": "Estimated fare",
+                "eta": "{{minutes}} min",
+                "now": "Now"
+            },
+            "noResults": "No results",
+            "serviceSelectorLabel": "Service",
+            "promoCode": {
+                "error": {
+                    "empty": "Please enter the promo code you wish to add",
+                    "general": "There was an error when trying to add the coupon, please try again.",
+                    "expired": "Promo Code has expired",
+                    "notValid": "Promo Code is not valid, please check again"
+                },
+                "tooltip": {
+                    "payment": "Adding a promo code is only available for card payments",
+                    "client": "To add a promo code, please select a client"
+                },
+                "amountOff": "{{amount}} off",
+                "enter": "Enter promo code",
+                "add": "Add promo code",
+                "label": "Promo Code"
+            },
+            "paymentMethod": {
+                "offline": "Offline payment",
+                "noClient": "Select client to view payment methods",
+                "cash": "Cash",
+                "emptyPlaceholder": "No payment methods",
+                "default": "Default",
+                "outstandingWarning": "Outstanding payment of",
+                "label": "Payment method"
+            },
+            "price": {
+                "retryFailureMessage": "The payment could not be processed. Please try again later or consider settling the outstanding payment.",
+                "retryFailurePopup": "The payment could not be processed",
+                "retrySuccessToast": "Payment processed successfully!",
+                "retryPayment": "Retry payment",
+                "settleErrors": {
+                    "general": "There was an error processing the request, try again later or contact support.",
+                    "PAYMENT_NOT_REJECTED": "Payment was not rejected"
+                },
+                "successToast": "Payment settled",
+                "confirmSettlePopup": {
+                    "submitButton": "Yes, settle payment",
+                    "popupBody": "There is an outstanding payment of {{totalPrice}}. Are you sure you want to proceed and settle this payment?",
+                    "cancelButton": "Cancel",
+                    "title": "Settle outstanding payment"
+                },
+                "settlePaymentLink": "Settle outstanding payment",
+                "breakdownHeaders": {
+                    "driverEarning": "Driver earning",
+                    "amount": "Amount",
+                    "items": "Items"
+                },
+                "total": "Total",
+                "name": "{{name}} - {{formattedPrice}} per {{unit}}",
+                "type": "Type",
+                "status": "Status",
+                "titleWithEstimated": "Pricing and payment (estimated)",
+                "title": "Ride Price",
+                "label": "Pricing and payment"
+            },
+            "unitOfMeasurement": {
+                "minutes": "min",
+                "km": "km",
+                "mile": "mile"
+            },
+            "addClient": "+ New Client",
+            "clientPlaceholder": "Search client by name, phone number or email address",
+            "client": "Client",
+            "by": "by",
+            "viewAsJson": "View as JSON",
+            "constraints": {
+                "list": {
+                    "vehicle": {
+                        "externalId": "External ID",
+                        "state": "State",
+                        "licensePlate": "License plate",
+                        "model": "Model"
+                    },
+                    "vendor": {
+                        "name": "Name"
+                    },
+                    "driver": {
+                        "vendor": "Vendor",
+                        "state": "State",
+                        "externalId": "External ID",
+                        "name": "Name"
+                    }
+                },
+                "edit": "Edit",
+                "vehicleLabelsPlaceholder": "Press enter to add a label...",
+                "vehicleLabels": "Vehicles labels",
+                "vehicleClassList": "Vehicles classes",
+                "vendorList": "Vendors",
+                "driverList": "Drivers",
+                "vehicleList": "Vehicles",
+                "required": "Required ({{count}})",
+                "exclude": "Exclude ({{count}})",
+                "noConstraints": "No constraints",
+                "include": "Include ({{count}})",
+                "title": "Constraints",
+                "error": "Oops, something went wrong"
+            },
+            "addConstraint": "+ Add constraint",
+            "saveAndDispatchLabel": "Update and Dispatch",
+            "address": "Address",
+            "vehicleRoute": "Vehicle route",
+            "forceAssignDispatchEnabled": "All ride constraints will be disregarded and the ride will be dispatched immediately and assigned to the vehicle or driver",
+            "forceAssignEnabled": "All ride constraints will be disregarded and the ride will be assigned to the vehicle or driver",
+            "forceAssignDisabled": "Only one vehicle may be selected to force assign the ride",
+            "forceAssignDispatch": "Dispatch now and force assign",
+            "forceAssignUpdate": "Update and force assign",
+            "forceAssignCreate": "Create and force assign",
+            "verificationMethods": {
+                "requiredCheckboxLabel": "Required",
+                "types": {
+                    "signature": "Signature",
+                    "contactless": "Contactless",
+                    "photo": "Photo",
+                    "opsReport": "Ops Report"
+                },
+                "addVerificationMethodTitle": "+ Add method",
+                "title": "Verification Methods"
+            },
+            "stopPointCard": {
+                "verificationMethodsTitle": "Verification Methods"
+            },
+            "chooseConstraints": {
+                "submitTitle": "Save",
+                "title": "Set ride constraints"
+            },
+            "dispatchType": "Dispatch Type",
+            "dispatchTypeOptions": {
+                "automatic": "Automatic",
+                "manual": "Manual"
+            },
+            "actions": {
+                "detachRideFromPlan": "Detach Ride from plan",
+                "viewRecommendations": "View recommendations",
+                "viewAssignmentLog": "View Assignment Log",
+                "fail": "Failure",
+                "delete": "Delete",
+                "detachPlan": "Detach from plan",
+                "viewPlan": "View Plan",
+                "track": "Track",
+                "rideTracker": "Ride Tracker",
+                "dispatch": "Dispatch",
+                "unassign": "Unassign",
+                "view": "View",
+                "reassign": "Reassign",
+                "cancel": "Cancel",
+                "edit": "Edit",
+                "clone": "Clone"
+            },
+            "externalIdLabel": "Ride External ID",
+            "numberOfItems": "Number of items",
+            "numberOfPassengers": "Number of passengers",
+            "errors": {
+                "recurringRideDateUpdate": "Only time can be changed for all recurring rides",
+                "clientBlocked": "Client is blocked and cannot create rides.",
+                "clientOutstandingBalanceLink": "<0>Click here<\/0> to open the ride with the outstanding balance.",
+                "clientOutstandingBalance": "Client has an outstanding balance.",
+                "required": "Required",
+                "endTimeAfterStart": "End date has to be after than start date",
+                "errorCodes": {
+                    "COULD_NOT_CREATE_PAYMENT_INTENT": "Payment intent creation failed, please check payment method."
+                },
+                "400": "Looks like this is an invalid ride. Please review the form and try again.",
+                "activeRidesLimitExceededTitle": "Order can't be created",
+                "activeRidesLimitExceededMsg": "You have exceeded the number of active orders, please try again once some of the active orders have been completed.",
+                "minDateError": "Date is before the current time",
+                "updateRideWasRejectedErrorMsg": "Sorry, this ride has already been dispatched and can no longer be edited. Note that individual stop points can still be cancelled.",
+                "unableToSubmitDataErrorMsg": "The ride was rejected. Please check your request and try again.",
+                "yourRideWasRejectedErrorMsg": "{{reason}}\n\nPlease check your request and try again.",
+                "title": "Ride Rejected",
+                "matching": {
+                    "NO_AVAILABLE_VEHICLES_IN_FUTURE_RIDE_SCHEDULING": "There are no available vehicles at the selected time.",
+                    "SCHEDULED_RIDE_CAPACITY_MAX_REACHED": "You have reached the maximum number of rides for this time slot",
+                    "NO_RECEIVING_DRIVER": "Ride was not accepted by any driver",
+                    "NO_AVAILABLE_VEHICLES_AFTER_FILTERS": "No available vehicles. Please check your constraints and try again",
+                    "NO_AVAILABLE_VEHICLES": "The ride cannot be fulfilled by any vehicle",
+                    "CANNOT_ASSIGN_STOP_POINTS": "The ride could not be assigned temporarily",
+                    "ROUTE_IS_NOT_POSSIBLE": "A valid route could not be created",
+                    "NO_ACTIVE_VEHICLE_IN_AREA": "No active vehicles in area",
+                    "SOME_STOP_POINTS_ARE_OUT_OF_TERRITORY": "At least one stop point is outside the defined territory"
+                }
+            },
+            "validation": {
+                "externalIdWithTemplate": "Cannot add external Id to recurring ride",
+                "packageIdExist": "Package ID already used",
+                "tooShort": "Invalid number",
+                "numberBetween": "Must be a number between 1 and 100",
+                "externalIdExist": "This ID is assigned to an active ride for the selected demand source",
+                "fieldIsRequired": "Field is required"
+            },
+            "pickupTimeOptions": {
+                "advanced": "Advanced",
+                "future": "Future",
+                "asap": "ASAP"
+            },
+            "pickupTimeLabel": "Pick up time",
+            "pooling": "Pooling",
+            "cancelLabel": "Cancel",
+            "submitUpdateLabel": "Update Ride",
+            "submitLabel": "Create Ride",
+            "dropoffContactPersonPhone": "Number",
+            "dropoffContactPersonName": "Contact person",
+            "dropoffAddress": "Address",
+            "pickupContactPersonPhone": "Number",
+            "pickupContactPersonName": "Contact person",
+            "pickupAddress": "Address",
+            "noteToDriver": "Note to driver",
+            "description": "Description",
+            "packageIdLabel": "Package ID",
+            "pickupLabel": "Pickup",
+            "poolingOptions": {
+                "no": "No pooling",
+                "passive": "Passive",
+                "active": "Active"
+            },
+            "type": {
+                "delivery": "Delivery",
+                "passenger": "Passenger"
+            },
+            "dropOffWithPhoto": "Require photo validation on dropoff",
+            "scheduling": {
+                "title": "Scheduling",
+                "dropoffWindow": "Dropoff window",
+                "pickupWindow": "Pickup window",
+                "to": "To: ",
+                "from": "From: ",
+                "placeholder": "Optimized"
+            },
+            "dropoffBeforeTime": "Before Time:",
+            "dropoffAfterTime": "After Time:",
+            "pickupBeforeTime": "Before Time:",
+            "pickupAfterTime": "After Time:",
+            "dropOffContactLess": "Contactless dropoff",
+            "dropoffLabel": "Dropoff",
+            "provider": "Provider",
+            "demandSource": "Demand source",
+            "updateTitle": "Ride details",
+            "auditTitle": "Last edited",
+            "editChip": "Edit",
+            "title": "New Ride",
+            "addVehicleConstraint": "Add vehicle constraint",
+            "vehicleConstraintModal": {
+                "submitTitle": "Create Ride",
+                "subTitle": "Select one or more vehicles to which the ride can be matched",
+                "title": "Set vehicle constraint"
+            }
+        },
+        "lastRematching": "Last rematching attempt {{time}}",
+        "disableEditDispatched": "Ride has already started the dispatching process and cannot be edited",
+        "disableEditStopPoint": "This ride has more than 2 stop points. Ride details cannot be edited",
+        "disableEdit": "Can not edit ride",
+        "columns": {
+            "firstStopPointNotes": "Notes (first stop)",
+            "state": {
+                "futureRide": "Future ride"
+            },
+            "window": "Window (next stop)",
+            "etaNextStop": "ETA next stop",
+            "numberOfPassengers": "No. Passengers",
+            "businessModel": "Business Model",
+            "lastDropoffEndTime": "Dropoff end (last)",
+            "lastDropoffStartTime": "Dropoff start (last)",
+            "excludeConstraints": "Constraints (exclude)",
+            "includeConstraints": "Constraints (include)",
+            "constraints": {
+                "vehicleLabels": "Labels",
+                "vendorList": "Vendors",
+                "VehicleLabels": "Labels",
+                "vehicleClassList": "Classes",
+                "driverList": "Drivers",
+                "vehicleList": "Vehicles"
+            },
+            "demandSource": "Demand source",
+            "paymentMethod": {
+                "card": "Credit card",
+                "offline": "Offline payment",
+                "cash": "Cash",
+                "credit-card": "Credit card",
+                "title": "Payment Method"
+            },
+            "clientPhone": "Client number",
+            "service": "Service",
+            "clientName": "Client name",
+            "estimatedDistance": {
+                "mile": "mi",
+                "km": "km",
+                "title": "Est. Distance"
+            },
+            "price": {
+                "estimate": "Estimate",
+                "title": "Price"
+            },
+            "stopPointCount": "Stop Point Count",
+            "passenger": "Passengers",
+            "packageId": "Package IDs",
+            "labels": "Labels",
+            "externalId": "External ID",
+            "lastStopPointAddress": "Dropoff (last)",
+            "firstStopPointAddress": "Pickup (first)",
+            "dispatchType": "Dispatch Type",
+            "vehicleLicensePlate": "Vehicle",
+            "dropoffAddress": "Dropoff address",
+            "dropoffTime": "Dropoff time",
+            "pickupAddress": "Pickup address",
+            "pickupTime": "Pickup time",
+            "audits": "Audits",
+            "status": "Status",
+            "driver": "Driver",
+            "scheduledTime": "Scheduled to",
+            "orderTime": "Order time",
+            "idName": "ID\/Passenger",
+            "rideType": "Type"
+        },
+        "states": {
+            "arrived": "Arrived",
+            "canceled": "Canceled",
+            "failed": "Failed",
+            "pending": "Pending",
+            "inroute": "In Route",
+            "rejected": "Rejected",
+            "cancelled": "Canceled",
+            "completed": "Completed",
+            "matching": "Matching",
+            "inride": "In-ride",
+            "dispatched": "Dispatched"
+        },
+        "viewRidePopup": {
+            "closeButton": "Close",
+            "noteToDriver": "Note to driver",
+            "contactPersonNumber": "Contact number",
+            "contactPerson": "Contact person",
+            "address": "Address",
+            "arriveBefore": "Arrive before",
+            "arriveAfter": "Arrive after",
+            "description": "Description",
+            "packageId": "Package ID",
+            "type": "Type",
+            "title": "Multi-Stop Point Ride (read only)",
+            "summary": {
+                "lastEditedTitle": "Last edited:",
+                "scheduledToTitle": "Scheduled to:",
+                "demandSourceTitle": "Demand Source:",
+                "statusTitle": "Status:"
+            }
+        },
+        "rideTypes": {
+            "passenger": "Passenger",
+            "delivery": "Delivery"
+        }
+    },
+    "stationCard": {
+        "completeNotice": "Auto-completed stop point. No driver confirmation submitted",
+        "arrivedAt": "Arrived:"
+    },
+    "packageCard": {
+        "package": {
+            "desc": "Description: ",
+            "id": "Package ID: "
+        }
+    },
+    "statusBar": {
+        "dispatchedVehicles": "Dispatched vehicles"
+    },
+    "failureReasonCard": {
+        "title": "Failure reason: "
+    },
+    "showMoreText": {
+        "seeLess": "See less",
+        "seeMore": "See more"
+    },
+    "noteCard": {
+        "driverComment": "Driver comment: ",
+        "title": "Note to driver: "
+    },
+    "indicators": {
+        "inService": {
+            "noService": "Not in service",
+            "inService": "In service"
+        },
+        "navigationMode": {
+            "manual": "Manual",
+            "auto": "Auto"
+        },
+        "infoTab": {
+            "nextStation": "NEXT STATION",
+            "osVersion": "OS VERSION",
+            "distanceDaily": "DISTANCE (Daily)",
+            "distanceInShift": "DISTANCE (in shift)",
+            "hitRatio": "HIT RATIO",
+            "odometer": "ODOMETER",
+            "serviceMode": "SERVICE MODE",
+            "serviceModeValue": {
+                "ON_DEMAND": "On Demand",
+                "BUS": "Bus",
+                "METRO": "Metro"
+            },
+            "supervisionMode": "SUPERVISION MODE",
+            "gpsSignal": "GPS SIGNAL",
+            "gpsConnection": "GPS CONNECTION",
+            "vehicleMode": "VEHICLE MODE",
+            "outdoorTemperature": "OUTDOOR TEMP",
+            "indoorTemperature": "INDOOR TEMP"
+        },
+        "kph": "kph",
+        "lastUpdateDefTemplate": "Last update: {{lastUpdateTime}}"
+    },
+    "mainMenu": {
+        "user": "User",
+        "notification": "Notification",
+        "admin": "Admin",
+        "reports": "Reports",
+        "management": "Management",
+        "dashboard": "Dashboard"
+    },
+    "login": {
+        "generalError": "Something went wrong, please try again",
+        "labelName": "Name",
+        "buttonTitle": "Login",
+        "passwordLabel": "Password",
+        "userNameLabel": "E-mail"
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "indicators": {
+        "lastUpdateDefTemplate": "",
+        "kph": "",
+        "infoTab": {
+            "indoorTemperature": "",
+            "outdoorTemperature": "",
+            "vehicleMode": "",
+            "gpsConnection": "",
+            "gpsSignal": "",
+            "supervisionMode": "",
+            "serviceModeValue": {
+                "METRO": "",
+                "BUS": "",
+                "ON_DEMAND": ""
+            },
+            "serviceMode": "",
+            "odometer": "",
+            "hitRatio": "",
+            "distanceInShift": "",
+            "distanceDaily": "",
+            "osVersion": "",
+            "nextStation": ""
+        },
+        "navigationMode": {
+            "auto": "",
+            "manual": ""
+        },
+        "inService": {
+            "inService": "Dalam pelayanan",
+            "noService": "Tidak dalam layanan 2"
+        }
+    }
+}

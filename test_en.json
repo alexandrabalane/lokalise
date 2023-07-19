@@ -1,7 +1,7 @@
 {
-  "boolean": "yes",
-  "color": "gold",
-  "null": "null",
+  "boolean": "yes hello",
+  "color": "gold hi",
+  "null": "null null",
   "number": "one",
   "object": {
     "a": "b",

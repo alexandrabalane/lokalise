@@ -1,18 +1,18 @@
 {
-  "boolean": "yes",
-  "color": "gold",
-  "null": "null",
-  "number": "one",
-  "object": {
-    "a": "b",
-    "c": "d"
-  },
-  "string": "Hello World",
-  "object2": {
-    "object3": {
-      "help1": "hello",
-      "help2": "hello2",
-      "help3": "hello3"
+    "boolean": "yes",
+    "color": "gold",
+    "null": "null",
+    "number": "one",
+    "object": {
+        "a": "b",
+        "c": "d"
+    },
+    "string": "Hello World",
+    "object2": {
+        "object3": {
+            "help1": "hello",
+            "help2": "hello2",
+            "help3": "hello3"
+        }
     }
-  }
 }

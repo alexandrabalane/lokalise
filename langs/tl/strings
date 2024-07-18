@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+  <string name="sampleKey">this is a key</string>
+  <string name="sampleKey1">this is another key</string>
+</resources>

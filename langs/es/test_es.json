@@ -1,18 +1,8 @@
 {
-    "boolean": "Sí, hola",
-    "color": "oro hola",
-    "null": "nulo nulo",
-    "number": "uno",
-    "object": {
-        "a": "b",
-        "c": "d"
-    },
-    "string": "Hola Mundo",
-    "object2": {
-        "object3": {
-            "help1": "Hola",
-            "help2": "hola2",
-            "help3": "hola3"
-        }
-    }
+    
+    "one": "uno",
+    "two": "dos",
+    "three": "tres",
+    "four": "quatro",
+    "five": "cinco"
 }

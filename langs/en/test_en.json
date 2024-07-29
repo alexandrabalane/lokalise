@@ -6,7 +6,6 @@
         "a": "b",
         "c": "d"
     },
-    "string": "Hello World",
     "object2": {
         "object3": {
             "help1": "hello",

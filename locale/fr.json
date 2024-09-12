@@ -1,0 +1,18 @@
+{
+    "boolean": "Oui Salut",
+    "color": "or salut",
+    "null": "null Null",
+    "number": "un",
+    "object": {
+        "a": "b",
+        "c": "d"
+    },
+    "string": "Bonjour le monde",
+    "object2": {
+        "object3": {
+            "help1": "Bonjour",
+            "help2": "bonjour2",
+            "help3": "bonjour3"
+        }
+    }
+}

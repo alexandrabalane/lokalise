@@ -1,0 +1,1194 @@
+{
+  "{0} hours": {
+    "translation": "{0} hours",
+    "notes": ""
+  },
+  "A manager will be notified of the Recall, Proceed?": {
+    "translation": "A manager will be notified of the Recall, Proceed?",
+    "notes": ""
+  },
+  "Account": {
+    "translation": "Account",
+    "notes": ""
+  },
+  "Account Settings": {
+    "translation": "Account Settings",
+    "notes": ""
+  },
+  "Add a comment": {
+    "translation": "Add a comment",
+    "notes": ""
+  },
+  "Add a Photo": {
+    "translation": "Add a Photo",
+    "notes": ""
+  },
+  "Add Assignee ": {
+    "translation": "Add Assignee ",
+    "notes": ""
+  },
+  "Add expense": {
+    "translation": "Add expense",
+    "notes": ""
+  },
+  "Add new form": {
+    "translation": "Add new form",
+    "notes": ""
+  },
+  "Add New Punch List": {
+    "translation": "Add New Punch List",
+    "notes": ""
+  },
+  "Add Photos": {
+    "translation": "Add Photos",
+    "notes": ""
+  },
+  "Add Photos & Files": {
+    "translation": "Add Photos & Files",
+    "notes": ""
+  },
+  "Add Service": {
+    "translation": "Add Service",
+    "notes": ""
+  },
+  "Added To Favorites": {
+    "translation": "Added To Favorites",
+    "notes": ""
+  },
+  "Added to Favorites": {
+    "translation": "Added to Favorites",
+    "notes": ""
+  },
+  "Address": {
+    "translation": "Address",
+    "notes": ""
+  },
+  "All": {
+    "translation": "All",
+    "notes": ""
+  },
+  "All changes synced successfully.": {
+    "translation": "All changes synced successfully.",
+    "notes": ""
+  },
+  "All expenses": {
+    "translation": "All expenses",
+    "notes": ""
+  },
+  "All Projects": {
+    "translation": "All Projects",
+    "notes": ""
+  },
+  "All Sites": {
+    "translation": "All Sites",
+    "notes": ""
+  },
+  "App Settings": {
+    "translation": "App Settings",
+    "notes": ""
+  },
+  "Are you sure?": {
+    "translation": "Are you sure?",
+    "notes": ""
+  },
+  "Assignees": {
+    "translation": "Assignees",
+    "notes": ""
+  },
+  "Attachments": {
+    "translation": "Attachments",
+    "notes": ""
+  },
+  "By changing the status to 'Submitted', I certify that all the expense information recorded here is true and correct.": {
+    "translation": "By changing the status to 'Submitted', I certify that all the expense information recorded here is true and correct.",
+    "notes": ""
+  },
+  "Camera": {
+    "translation": "Camera",
+    "notes": ""
+  },
+  "Cancel": {
+    "translation": "Cancel",
+    "notes": ""
+  },
+  "Closed": {
+    "translation": "Closed",
+    "notes": ""
+  },
+  "Closed ({0})": {
+    "translation": "Closed ({0})",
+    "notes": ""
+  },
+  "Complete": {
+    "translation": "Complete",
+    "notes": ""
+  },
+  "Completed": {
+    "translation": "Completed",
+    "notes": ""
+  },
+  "Connect to another account": {
+    "translation": "Connect to another account",
+    "notes": ""
+  },
+  "Create Item": {
+    "translation": "Create Item",
+    "notes": ""
+  },
+  "Create New Item": {
+    "translation": "Create New Item",
+    "notes": ""
+  },
+  "Create New List": {
+    "translation": "Create New List",
+    "notes": ""
+  },
+  "Create New RFI": {
+    "translation": "Create New RFI",
+    "notes": ""
+  },
+  "Delete Report": {
+    "translation": "Delete Report",
+    "notes": ""
+  },
+  "Deletion failed.": {
+    "translation": "Deletion failed.",
+    "notes": ""
+  },
+  "Details": {
+    "translation": "Details",
+    "notes": ""
+  },
+  "Device storage almost full": {
+    "translation": "Device storage almost full",
+    "notes": ""
+  },
+  "Displayed Name": {
+    "translation": "Displayed Name",
+    "notes": ""
+  },
+  "Do not show again": {
+    "translation": "Do not show again",
+    "notes": ""
+  },
+  "Domain": {
+    "translation": "Domain",
+    "notes": ""
+  },
+  "Don't see an account?": {
+    "translation": "Don't see an account?",
+    "notes": ""
+  },
+  "Due Date": {
+    "translation": "Due Date",
+    "notes": ""
+  },
+  "Due Date: ": {
+    "translation": "Due Date: ",
+    "notes": ""
+  },
+  "Edit Location": {
+    "translation": "Edit Location",
+    "notes": ""
+  },
+  "Enter a quantity": {
+    "translation": "Enter a quantity",
+    "notes": ""
+  },
+  "Expense added on {0}": {
+    "translation": "Expense added on {0}",
+    "notes": ""
+  },
+  "Expenses cannot be accessed": {
+    "translation": "Expenses cannot be accessed",
+    "notes": ""
+  },
+  "Favorites": {
+    "translation": "Favorites",
+    "notes": ""
+  },
+  "Files and photos": {
+    "translation": "Files and photos",
+    "notes": ""
+  },
+  "Files and Photos": {
+    "translation": "Files and Photos",
+    "notes": ""
+  },
+  "FILES AND PHOTOS": {
+    "translation": "FILES AND PHOTOS",
+    "notes": ""
+  },
+  "Fix Assignee": {
+    "translation": "Fix Assignee",
+    "notes": ""
+  },
+  "Fix Assignee: ": {
+    "translation": "Fix Assignee: ",
+    "notes": ""
+  },
+  "Folders": {
+    "translation": "Folders",
+    "notes": ""
+  },
+  "Forget password": {
+    "translation": "Forget password",
+    "notes": ""
+  },
+  "Forms": {
+    "translation": "Forms",
+    "notes": ""
+  },
+  "FORMS": {
+    "translation": "FORMS",
+    "notes": ""
+  },
+  "Free up device space": {
+    "translation": "Free up device space",
+    "notes": ""
+  },
+  "Full Calendar": {
+    "translation": "Full Calendar",
+    "notes": ""
+  },
+  "Gallery": {
+    "translation": "Gallery",
+    "notes": ""
+  },
+  "Home": {
+    "translation": "Home",
+    "notes": ""
+  },
+  "In Progress": {
+    "translation": "In Progress",
+    "notes": ""
+  },
+  "Information": {
+    "translation": "Information",
+    "notes": ""
+  },
+  "Install Equipment": {
+    "translation": "Install Equipment",
+    "notes": ""
+  },
+  "It appears you have unsaved changes on this work log. Do you wish to continue and lose all changes": {
+    "translation": "It appears you have unsaved changes on this work log. Do you wish to continue and lose all changes",
+    "notes": ""
+  },
+  "items": {
+    "translation": "items",
+    "notes": ""
+  },
+  "Job": {
+    "translation": "Job",
+    "notes": ""
+  },
+  "Job Aids": {
+    "translation": "Job Aids",
+    "notes": ""
+  },
+  "Location": {
+    "translation": "Location",
+    "notes": ""
+  },
+  "Log out from account": {
+    "translation": "Log out from account",
+    "notes": ""
+  },
+  "Log Time": {
+    "translation": "Log Time",
+    "notes": ""
+  },
+  "Log Work": {
+    "translation": "Log Work",
+    "notes": ""
+  },
+  "Logged out": {
+    "translation": "Logged out",
+    "notes": ""
+  },
+  "Logged services": {
+    "translation": "Logged services",
+    "notes": ""
+  },
+  "Manage General App Settings": {
+    "translation": "Manage General App Settings",
+    "notes": ""
+  },
+  "Manage Project Schedule": {
+    "translation": "Manage Project Schedule",
+    "notes": ""
+  },
+  "Map Configuration": {
+    "translation": "Map Configuration",
+    "notes": ""
+  },
+  "MB": {
+    "translation": "MB",
+    "notes": ""
+  },
+  "Menu": {
+    "translation": "Menu",
+    "notes": ""
+  },
+  "Mobile Plus": {
+    "translation": "Mobile Plus",
+    "notes": ""
+  },
+  "MON, TUE, WED, THU, FRI, SAT, SUN": {
+    "translation": "MON, TUE, WED, THU, FRI, SAT, SUN",
+    "notes": ""
+  },
+  "My Account(s)": {
+    "translation": "My Account(s)",
+    "notes": ""
+  },
+  "My Accounts and Settings": {
+    "translation": "My Accounts and Settings",
+    "notes": ""
+  },
+  "My Favorites": {
+    "translation": "My Favorites",
+    "notes": ""
+  },
+  "My Forms": {
+    "translation": "My Forms",
+    "notes": ""
+  },
+  "Name": {
+    "translation": "Name",
+    "notes": ""
+  },
+  "Needs Review": {
+    "translation": "Needs Review",
+    "notes": ""
+  },
+  "Needs Review ({0}": {
+    "translation": "Needs Review ({0}",
+    "notes": ""
+  },
+  "New Expenses can be created only when the parent Expense Report is in Open status.": {
+    "translation": "New Expenses can be created only when the parent Expense Report is in Open status.",
+    "notes": ""
+  },
+  "New Time Entry": {
+    "translation": "New Time Entry",
+    "notes": ""
+  },
+  "New Work Log": {
+    "translation": "New Work Log",
+    "notes": ""
+  },
+  "No filters available": {
+    "translation": "No filters available",
+    "notes": ""
+  },
+  "No items to display": {
+    "translation": "No items to display",
+    "notes": ""
+  },
+  "No password saved": {
+    "translation": "No password saved",
+    "notes": ""
+  },
+  "No results have been found": {
+    "translation": "No results have been found",
+    "notes": ""
+  },
+  "No time entries": {
+    "translation": "No time entries",
+    "notes": ""
+  },
+  "No Time Entries for": {
+    "translation": "No Time Entries for",
+    "notes": ""
+  },
+  "No time entries for {0}": {
+    "translation": "No time entries for {0}",
+    "notes": ""
+  },
+  "Not Started": {
+    "translation": "Not Started",
+    "notes": ""
+  },
+  "Not started, Complete": {
+    "translation": "Not started, Complete",
+    "notes": ""
+  },
+  "Note": {
+    "translation": "Note",
+    "notes": ""
+  },
+  "Offline: Changes saved and will sync once online.": {
+    "translation": "Offline: Changes saved and will sync once online.",
+    "notes": ""
+  },
+  "Offline: No internet connection.": {
+    "translation": "Offline: No internet connection.",
+    "notes": ""
+  },
+  "Ok": {
+    "translation": "Ok",
+    "notes": ""
+  },
+  "Online: Syncing changes.": {
+    "translation": "Online: Syncing changes.",
+    "notes": ""
+  },
+  "Open": {
+    "translation": "Open",
+    "notes": ""
+  },
+  "Open ({0})": {
+    "translation": "Open ({0})",
+    "notes": ""
+  },
+  "or": {
+    "translation": "or",
+    "notes": ""
+  },
+  "Other": {
+    "translation": "Other",
+    "notes": ""
+  },
+  "Photo": {
+    "translation": "Photo",
+    "notes": ""
+  },
+  "Photos & Files": {
+    "translation": "Photos & Files",
+    "notes": ""
+  },
+  "Photos & Videos": {
+    "translation": "Photos & Videos",
+    "notes": ""
+  },
+  "Priority": {
+    "translation": "Priority",
+    "notes": ""
+  },
+  "Priority: ": {
+    "translation": "Priority: ",
+    "notes": ""
+  },
+  "PRODUCTION TRACKING LOGS": {
+    "translation": "PRODUCTION TRACKING LOGS",
+    "notes": ""
+  },
+  "Production Tracking Logs": {
+    "translation": "Production Tracking Logs",
+    "notes": ""
+  },
+  "Program": {
+    "translation": "Program",
+    "notes": ""
+  },
+  "Project": {
+    "translation": "Project",
+    "notes": ""
+  },
+  "Project Schedule": {
+    "translation": "Project Schedule",
+    "notes": ""
+  },
+  "Punch Item": {
+    "translation": "Punch Item",
+    "notes": ""
+  },
+  "Punch Items": {
+    "translation": "Punch Items",
+    "notes": ""
+  },
+  "Punch List": {
+    "translation": "Punch List",
+    "notes": ""
+  },
+  "Punch List: ": {
+    "translation": "Punch List: ",
+    "notes": ""
+  },
+  "Punch Lists": {
+    "translation": "Punch Lists",
+    "notes": ""
+  },
+  "Recall My Timesheet": {
+    "translation": "Recall My Timesheet",
+    "notes": ""
+  },
+  "Recently Viewed": {
+    "translation": "Recently Viewed",
+    "notes": ""
+  },
+  "Remind me tomorrow": {
+    "translation": "Remind me tomorrow",
+    "notes": ""
+  },
+  "Remove from device": {
+    "translation": "Remove from device",
+    "notes": ""
+  },
+  "Removed from Favorites": {
+    "translation": "Removed from Favorites",
+    "notes": ""
+  },
+  "Report submitted.": {
+    "translation": "Report submitted.",
+    "notes": ""
+  },
+  "required": {
+    "translation": "required",
+    "notes": ""
+  },
+  "Reset": {
+    "translation": "Reset",
+    "notes": ""
+  },
+  "RETURN TO SERVICE": {
+    "translation": "RETURN TO SERVICE",
+    "notes": ""
+  },
+  "Return to Work Log": {
+    "translation": "Return to Work Log",
+    "notes": ""
+  },
+  "Review date": {
+    "translation": "Review date",
+    "notes": ""
+  },
+  "Review Punch Item Fix": {
+    "translation": "Review Punch Item Fix",
+    "notes": ""
+  },
+  "Review Work Log": {
+    "translation": "Review Work Log",
+    "notes": ""
+  },
+  "Reviewed By": {
+    "translation": "Reviewed By",
+    "notes": ""
+  },
+  "S M T W T F S (days initials of calendar)": {
+    "translation": "S M T W T F S (days initials of calendar)",
+    "notes": ""
+  },
+  "Sandbox": {
+    "translation": "Sandbox",
+    "notes": ""
+  },
+  "Save & New": {
+    "translation": "Save & New",
+    "notes": ""
+  },
+  "Save Location": {
+    "translation": "Save Location",
+    "notes": ""
+  },
+  "Saving": {
+    "translation": "Saving",
+    "notes": ""
+  },
+  "Saving data": {
+    "translation": "Saving data",
+    "notes": ""
+  },
+  "Saving data...": {
+    "translation": "Saving data...",
+    "notes": ""
+  },
+  "Saving offline": {
+    "translation": "Saving offline",
+    "notes": ""
+  },
+  "Scan Barcode": {
+    "translation": "Scan Barcode",
+    "notes": ""
+  },
+  "Search": {
+    "translation": "Search",
+    "notes": ""
+  },
+  "Search Assignees": {
+    "translation": "Search Assignees",
+    "notes": ""
+  },
+  "Search category or Services": {
+    "translation": "Search category or Services",
+    "notes": ""
+  },
+  "Search Category or Services": {
+    "translation": "Search Category or Services",
+    "notes": ""
+  },
+  "Search...": {
+    "translation": "Search...",
+    "notes": ""
+  },
+  "Section": {
+    "translation": "Section",
+    "notes": ""
+  },
+  "Section {0}": {
+    "translation": "Section {0}",
+    "notes": ""
+  },
+  "Select a job/project/site to see services.": {
+    "translation": "Select a job/project/site to see services.",
+    "notes": ""
+  },
+  "Select Job/Project/Site": {
+    "translation": "Select Job/Project/Site",
+    "notes": ""
+  },
+  "Service Added": {
+    "translation": "Service Added",
+    "notes": ""
+  },
+  "Sitetracker needs access to the camera and gallery: Go to Settings to allow camera and gallery access for Sitetracker": {
+    "translation": "Sitetracker needs access to the camera and gallery: Go to Settings to allow camera and gallery access for Sitetracker",
+    "notes": ""
+  },
+  "Sitetracker needs access to the gallery: Go to Settings to allow gallery access for Sitetracker": {
+    "translation": "Sitetracker needs access to the gallery: Go to Settings to allow gallery access for Sitetracker",
+    "notes": ""
+  },
+  "ST": {
+    "translation": "ST",
+    "notes": ""
+  },
+  "Start Directions": {
+    "translation": "Start Directions",
+    "notes": ""
+  },
+  "Sub Type": {
+    "translation": "Sub Type",
+    "notes": ""
+  },
+  "Submit": {
+    "translation": "Submit",
+    "notes": ""
+  },
+  "Submit Punch Item Fix": {
+    "translation": "Submit Punch Item Fix",
+    "notes": ""
+  },
+  "Subtype": {
+    "translation": "Subtype",
+    "notes": ""
+  },
+  "Success": {
+    "translation": "Success",
+    "notes": ""
+  },
+  "Suggested Services": {
+    "translation": "Suggested Services",
+    "notes": ""
+  },
+  "Tap to try again": {
+    "translation": "Tap to try again",
+    "notes": ""
+  },
+  "There are no associated services.": {
+    "translation": "There are no associated services.",
+    "notes": ""
+  },
+  "There are no available job aids.": {
+    "translation": "There are no available job aids.",
+    "notes": ""
+  },
+  "There are no forms attached to this {widget name}.": {
+    "translation": "There are no forms attached to this {widget name}.",
+    "notes": ""
+  },
+  "There are no punch items": {
+    "translation": "There are no punch items",
+    "notes": ""
+  },
+  "This account does not have permission to use the mobile app": {
+    "translation": "This account does not have permission to use the mobile app",
+    "notes": ""
+  },
+  "This item would be deleted.": {
+    "translation": "This item would be deleted.",
+    "notes": ""
+  },
+  "This job has not been scheduled": {
+    "translation": "This job has not been scheduled",
+    "notes": ""
+  },
+  "Time Period": {
+    "translation": "Time Period",
+    "notes": ""
+  },
+  "TIME PERIOD: {0}": {
+    "translation": "TIME PERIOD: {0}",
+    "notes": ""
+  },
+  "TIME PERIOD: {0} - {1}": {
+    "translation": "TIME PERIOD: {0} - {1}",
+    "notes": ""
+  },
+  "Time period: {0} - {1}": {
+    "translation": "Time period: {0} - {1}",
+    "notes": ""
+  },
+  "Timesheet recalled successfully!": {
+    "translation": "Timesheet recalled successfully!",
+    "notes": ""
+  },
+  "Timesheet submitted successfully!": {
+    "translation": "Timesheet submitted successfully!",
+    "notes": ""
+  },
+  "Timetracker": {
+    "translation": "Timetracker",
+    "notes": ""
+  },
+  "Type": {
+    "translation": "Type",
+    "notes": ""
+  },
+  "Unassigned": {
+    "translation": "Unassigned",
+    "notes": ""
+  },
+  "Uninstall Equipment": {
+    "translation": "Uninstall Equipment",
+    "notes": ""
+  },
+  "Upload": {
+    "translation": "Upload",
+    "notes": ""
+  },
+  "Upload(s) completed.": {
+    "translation": "Upload(s) completed.",
+    "notes": ""
+  },
+  "upload(s) failed": {
+    "translation": "upload(s) failed",
+    "notes": ""
+  },
+  "Upload(s) failed.": {
+    "translation": "Upload(s) failed.",
+    "notes": ""
+  },
+  "Upload(s) paused. Waiting for WI-FI.": {
+    "translation": "Upload(s) paused. Waiting for WI-FI.",
+    "notes": ""
+  },
+  "Upload(s) pending": {
+    "translation": "Upload(s) pending",
+    "notes": ""
+  },
+  "upload(s) pending": {
+    "translation": "upload(s) pending",
+    "notes": ""
+  },
+  "Username": {
+    "translation": "Username",
+    "notes": ""
+  },
+  "Video": {
+    "translation": "Video",
+    "notes": ""
+  },
+  "View": {
+    "translation": "View",
+    "notes": ""
+  },
+  "View {0} Details": {
+    "translation": "View {0} Details",
+    "notes": ""
+  },
+  "View Full Calendar": {
+    "translation": "View Full Calendar",
+    "notes": ""
+  },
+  "View Full List": {
+    "translation": "View Full List",
+    "notes": ""
+  },
+  "View Logged Work": {
+    "translation": "View Logged Work",
+    "notes": ""
+  },
+  "View logged work": {
+    "translation": "View logged work",
+    "notes": ""
+  },
+  "View More Details": {
+    "translation": "View More Details",
+    "notes": ""
+  },
+  "View Time Entries": {
+    "translation": "View Time Entries",
+    "notes": ""
+  },
+  "Web": {
+    "translation": "Web",
+    "notes": ""
+  },
+  "What was the work for?": {
+    "translation": "What was the work for?",
+    "notes": ""
+  },
+  "What work was done?": {
+    "translation": "What work was done?",
+    "notes": ""
+  },
+  "Wi-Fi": {
+    "translation": "Wi-Fi",
+    "notes": ""
+  },
+  "Work Location": {
+    "translation": "Work Location",
+    "notes": ""
+  },
+  "You can finish loaded workflows in the app. Attachments will be uploaded once you're online.": {
+    "translation": "You can finish loaded workflows in the app. Attachments will be uploaded once you're online.",
+    "notes": ""
+  },
+  "You do not have access to display this map configuration. Please check with your admin.": {
+    "translation": "You do not have access to display this map configuration. Please check with your admin.",
+    "notes": ""
+  },
+  "You don't have a valid policy assigned to you. Contact your Sitetracker administrator and ask them to set an Expense Policy for you.": {
+    "translation": "You don't have a valid policy assigned to you. Contact your Sitetracker administrator and ask them to set an Expense Policy for you.",
+    "notes": ""
+  },
+  "You must add a valid quantity to save a service": {
+    "translation": "You must add a valid quantity to save a service",
+    "notes": ""
+  },
+  "You must log a Service in order to save a new Work Log": {
+    "translation": "You must log a Service in order to save a new Work Log",
+    "notes": ""
+  },
+  "You must log a service in order to save a new work log.": {
+    "translation": "You must log a service in order to save a new work log.",
+    "notes": ""
+  },
+  "You must select a job, project, or site to save a new work log.": {
+    "translation": "You must select a job, project, or site to save a new work log.",
+    "notes": ""
+  },
+  "You seem far away. Is this the right location?": {
+    "translation": "You seem far away. Is this the right location?",
+    "notes": ""
+  },
+  "Your device storage is at ${variable}%. Please remove items from your device.": {
+    "translation": "Your device storage is at ${variable}%. Please remove items from your device.",
+    "notes": ""
+  },
+  "Your organization is not setup correctly to use this map. Please reach out to your Sitetracker administrator for assistance.": {
+    "translation": "Your organization is not setup correctly to use this map. Please reach out to your Sitetracker administrator for assistance.",
+    "notes": ""
+  },
+  "{0} Details": {
+    "translation": "{0} Details",
+    "notes": ""
+  },
+  "{0} Information": {
+    "translation": "{0} Information",
+    "notes": ""
+  },
+  "Add a Comment": {
+    "translation": "Add a Comment",
+    "notes": ""
+  },
+  "Add Assignees": {
+    "translation": "Add Assignees",
+    "notes": ""
+  },
+  "Add Comment": {
+    "translation": "Add Comment",
+    "notes": ""
+  },
+  "Add New": {
+    "translation": "Add New",
+    "notes": ""
+  },
+  "Comment on": {
+    "translation": "Comment on",
+    "notes": ""
+  },
+  "Complete a Form": {
+    "translation": "Complete a Form",
+    "notes": ""
+  },
+  "Continue Signing": {
+    "translation": "Continue Signing",
+    "notes": ""
+  },
+  "Create List": {
+    "translation": "Create List",
+    "notes": ""
+  },
+  "Date Completed": {
+    "translation": "Date Completed",
+    "notes": ""
+  },
+  "Delete {0}": {
+    "translation": "Delete {0}",
+    "notes": ""
+  },
+  "Directions": {
+    "translation": "Directions",
+    "notes": ""
+  },
+  "Discard Changes": {
+    "translation": "Discard Changes",
+    "notes": ""
+  },
+  "Enable Location": {
+    "translation": "Enable Location",
+    "notes": ""
+  },
+  "Enable location services to log the location": {
+    "translation": "Enable location services to log the location",
+    "notes": ""
+  },
+  "Ending session...": {
+    "translation": "Ending session...",
+    "notes": ""
+  },
+  "Files": {
+    "translation": "Files",
+    "notes": ""
+  },
+  "Go to Settings to allow camera access for Sitetracker.": {
+    "translation": "Go to Settings to allow camera access for Sitetracker.",
+    "notes": ""
+  },
+  "Go to Settings to allow camera and gallery access for Sitetracker.": {
+    "translation": "Go to Settings to allow camera and gallery access for Sitetracker.",
+    "notes": ""
+  },
+  "Go to Settings to allow gallery access for Sitetracker.": {
+    "translation": "Go to Settings to allow gallery access for Sitetracker.",
+    "notes": ""
+  },
+  "It appears you have unsaved changes on this work log. Do you wish to continue and lose all changes?": {
+    "translation": "It appears you have unsaved changes on this work log. Do you wish to continue and lose all changes?",
+    "notes": ""
+  },
+  "Loading Locations...": {
+    "translation": "Loading Locations...",
+    "notes": ""
+  },
+  "Location permission denied.": {
+    "translation": "Location permission denied.",
+    "notes": ""
+  },
+  "More info...": {
+    "translation": "More info...",
+    "notes": ""
+  },
+  "No actions available.": {
+    "translation": "No actions available.",
+    "notes": ""
+  },
+  "No records found. Try searching something else or in a different area.": {
+    "translation": "No records found. Try searching something else or in a different area.",
+    "notes": ""
+  },
+  "PHOTOS & FILES": {
+    "translation": "PHOTOS & FILES",
+    "notes": ""
+  },
+  "Photos and Files": {
+    "translation": "Photos and Files",
+    "notes": ""
+  },
+  "Removing offline data. Please wait.": {
+    "translation": "Removing offline data. Please wait.",
+    "notes": ""
+  },
+  "Retake": {
+    "translation": "Retake",
+    "notes": ""
+  },
+  "Return to Service": {
+    "translation": "Return to Service",
+    "notes": ""
+  },
+  "Review": {
+    "translation": "Review",
+    "notes": ""
+  },
+  "RFIs": {
+    "translation": "RFIs",
+    "notes": ""
+  },
+  "Save": {
+    "translation": "Save",
+    "notes": ""
+  },
+  "Save Draft": {
+    "translation": "Save Draft",
+    "notes": ""
+  },
+  "Save Signature": {
+    "translation": "Save Signature",
+    "notes": ""
+  },
+  "Saving...": {
+    "translation": "Saving...",
+    "notes": ""
+  },
+  "Search results will show here": {
+    "translation": "Search results will show here",
+    "notes": ""
+  },
+  "Session expired": {
+    "translation": "Session expired",
+    "notes": ""
+  },
+  "Settings": {
+    "translation": "Settings",
+    "notes": ""
+  },
+  "Signature in Progress": {
+    "translation": "Signature in Progress",
+    "notes": ""
+  },
+  "Sitetracker needs access to the camera": {
+    "translation": "Sitetracker needs access to the camera",
+    "notes": ""
+  },
+  "Sitetracker needs access to the camera and gallery": {
+    "translation": "Sitetracker needs access to the camera and gallery",
+    "notes": ""
+  },
+  "Sitetracker needs access to the gallery": {
+    "translation": "Sitetracker needs access to the gallery",
+    "notes": ""
+  },
+  "Syncing...": {
+    "translation": "Syncing...",
+    "notes": ""
+  },
+  "Take a Photo": {
+    "translation": "Take a Photo",
+    "notes": ""
+  },
+  "Tap to refresh": {
+    "translation": "Tap to refresh",
+    "notes": ""
+  },
+  "There are no Punch Items": {
+    "translation": "There are no Punch Items",
+    "notes": ""
+  },
+  "There are no related items": {
+    "translation": "There are no related items",
+    "notes": ""
+  },
+  "There are no RFIs": {
+    "translation": "There are no RFIs",
+    "notes": ""
+  },
+  "This item would be permanently deleted": {
+    "translation": "This item would be permanently deleted",
+    "notes": ""
+  },
+  "Updating data...": {
+    "translation": "Updating data...",
+    "notes": ""
+  },
+  "Updating project schedule": {
+    "translation": "Updating project schedule",
+    "notes": ""
+  },
+  "Use my location": {
+    "translation": "Use my location",
+    "notes": ""
+  },
+  "View details": {
+    "translation": "View details",
+    "notes": ""
+  },
+  "When was the work done?": {
+    "translation": "When was the work done?",
+    "notes": ""
+  },
+  "You have unsaved changes": {
+    "translation": "You have unsaved changes",
+    "notes": ""
+  },
+  "You must add a valid quantity to save a service.": {
+    "translation": "You must add a valid quantity to save a service.",
+    "notes": ""
+  },
+  "Your current session is invalid. You will need to log back in to Sitetracker Mobile": {
+    "translation": "Your current session is invalid. You will need to log back in to Sitetracker Mobile",
+    "notes": ""
+  },
+  "Search term must be longer than one character": {
+    "translation": "Search term must be longer than one character",
+    "notes": ""
+  },
+  "Error": {
+    "translation": "Error",
+    "notes": ""
+  },
+  "You can finish loaded workflows in the app. All changes and files will be uploaded once you're online.": {
+    "translation": "You can finish loaded workflows in the app. All changes and files will be uploaded once you're online.",
+    "notes": ""
+  },
+  "Online, Files Uploading: {0}": {
+    "translation": "Online, Files Uploading: {0}",
+    "notes": ""
+  },
+  "Waiting for WI-FI, Files To Upload: {0}": {
+    "translation": "Waiting for WI-FI, Files To Upload: {0}",
+    "notes": ""
+  },
+  "Uploads Failed: {0}": {
+    "translation": "Uploads Failed: {0}",
+    "notes": ""
+  },
+  "Uploads Completed: {0}": {
+    "translation": "Uploads Completed: {0}",
+    "notes": ""
+  },
+  "{0} uploads failed": {
+    "translation": "{0} uploads failed",
+    "notes": ""
+  },
+  "{0} uploads pending": {
+    "translation": "{0} uploads pending",
+    "notes": ""
+  },
+  "{0} upload failed": {
+    "translation": "{0} upload failed",
+    "notes": ""
+  },
+  "{0} upload pending": {
+    "translation": "{0} upload pending",
+    "notes": ""
+  },
+  "Offline: Changes saved will sync once online.": {
+    "translation": "Offline: Changes saved will sync once online.",
+    "notes": ""
+  },
+  "Files Uploaded Successfully: {0}": {
+    "translation": "Files Uploaded Successfully: {0}",
+    "notes": ""
+  },
+  "An unexpected error occurred.": {
+    "translation": "An unexpected error occurred.",
+    "notes": "An unexpected error occurred on the UI."
+  },
+  "If the problem persists, please contact support for assistance.": {
+    "translation": "If the problem persists, please contact support for assistance.",
+    "notes": "Unexpected error occurred on the UI and we are asking the user to contact support for assistance."
+  },
+  "Widget Error": {
+    "translation": "Widget Error",
+    "notes": "An error occurred while loading the widget."
+  },
+  "Site": {
+    "translation": "Site",
+    "notes": ""
+  }
+}

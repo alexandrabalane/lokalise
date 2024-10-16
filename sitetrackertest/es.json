@@ -1,9 +1,9 @@
 {
     "Ending session...": "Finalizando sesión",
-    "Files Uploaded Successfully: {0}": "Archivos cargados correctamente: {0}",
+    "Files Uploaded Successfully: {0}": "Archivos cargados exitosamente: {0}",
     "More info...": "Más información...",
-    "Offline: Changes saved will sync once online.": "Sin conexión: los cambios guardados se sincronizarán una vez que esté en línea.",
+    "Offline: Changes saved will sync once online.": "Sin conexión: los cambios guardados se sincronizarán una vez en línea.",
     "Saving data...": "Guardando los datos...",
     "Saving...": "Guardando...",
-    "Syncing...": "Sincronizando..."
+    "Syncing...": "Sincronización..."
 }

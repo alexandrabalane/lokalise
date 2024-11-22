@@ -1,0 +1,11 @@
+{
+    "Syncing...": {
+        "translation": "Sincronización..."
+    },
+    "Offline: Changes saved will sync once online.": {
+        "translation": "Sin conexión: los cambios guardados se sincronizarán una vez en línea."
+    },
+    "Files Uploaded Successfully: {0}": {
+        "translation": "Archivos cargados exitosamente: {0}"
+    }
+}

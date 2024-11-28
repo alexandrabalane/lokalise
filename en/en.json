@@ -1,0 +1,34 @@
+{
+    "indicators": {
+        "lastUpdateDefTemplate": "Last update: {{lastUpdateTime}}",
+        "kph": "kph",
+        "infoTab": {
+            "indoorTemperature": "INDOOR TEMP",
+            "outdoorTemperature": "OUTDOOR TEMP",
+            "vehicleMode": "VEHICLE MODE",
+            "gpsConnection": "GPS CONNECTION",
+            "gpsSignal": "GPS SIGNAL",
+            "supervisionMode": "SUPERVISION MODE",
+            "serviceModeValue": {
+                "METRO": "Metro",
+                "BUS": "Bus",
+                "ON_DEMAND": "On Demand"
+            },
+            "serviceMode": "SERVICE MODE",
+            "odometer": "ODOMETER",
+            "hitRatio": "HIT RATIO",
+            "distanceInShift": "DISTANCE (in shift)",
+            "distanceDaily": "DISTANCE (Daily)",
+            "osVersion": "OS VERSION",
+            "nextStation": "NEXT STATION"
+        },
+        "navigationMode": {
+            "auto": "Auto",
+            "manual": "Manual"
+        },
+        "inService": {
+            "inService": "In service",
+            "noService": "Not in service anymore"
+        }
+    }
+}
